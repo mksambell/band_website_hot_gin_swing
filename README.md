@@ -1,110 +1,169 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Band website for 'Hot Gin Swing'
 
-Welcome USER_NAME,
+## Table of Contents
+1. [UX](#1-ux)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## 1. UX
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+### Strategy
 
-## Gitpod Reminders
+#### Project goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This website is a place for prospective clients to find out about the South Wales-based, swing/jazz band Hot Gin Swing. It will introduce users to the band and provide information about the type of musical services they offer, examples and images of their performances, reviews, and contact information.
 
-`python3 -m http.server`
+#### Band goals
 
-A blue button should appear to click: _Make Public_,
+The band's main aim is to get more bookings. They therefore want to increase and improve their online presence, providing information about their music and availability in a professional-looking format. They have a presence on Facebook and Youtube where they post upcoming gigs, videos and photos of performances and booking details, but often potential clients ask to see a website. They would like to direct potential clients to the website as the main source of information about the band.
+The website will also be an opportunity to establish a 'house style' for the band in terms of font, colour, logo and image format, which can then be used on promotional material and on the band's social media. This 'house style' could also be made available to clients (particularly festival and dance organisers) as a promotional pack.
 
-Another blue button should appear to click: _Open Browser_.
+#### User goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Users may access the website for a number of reasons:
+- an event organiser already considering booking the band, looking for confirmation as to the quality of the band's music and suitability fo their event
+- an event organiser browsing/searching for musical acts in their region
+- a casual visitor, or someone who has heard the band at a performance and wants to find out more about the band, including future performances
 
-A blue button should appear to click: _Make Public_,
+All of these users will need to easily navigate through the information on the site. Contact information will need to be readily available. Images and media will need to be of the highest quality available. Information about what the band offer will need to be displayed clearly and in a friendly and professional manner.
 
-Another blue button should appear to click: _Open Browser_.
+#### User stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- As a potential client, I want:
+	1. To hear/watch examples of the band's performances
+	2. To find out about the range of musical services they offer
+	3. To read reviews about the band's performances from other clients
+	4. To be able to get in touch easily to make an enquiry
+	5. To see images of the band's appearance
+	6. To know that the band will be friendly and easy to deal with
+	7. To find out about the band's repertoire and the styles of music they perform
+- As a festival organiser, in addition to the potential client desires, I want:
+	1. To know about any of the band's other festival appearances
+	2. To find out about the band's reputation
+	3. To see images/video content of previous appearances
+- As a dance event organiser, in addition to the potential client desires, I want:
+	1. To know the repertoire, to judge whether it will be suitable for my event
+	2. To read reviews of the band's performances at other dance events
+- As someone who recently heard the band at a performance, I want:
+	1. To learn more about the band
 
 ---
+### Scope
 
-Happy coding!
+#### Required features
+
+In order to meet the requirements identified at strategy level, the following features and information will need to be included in the website:
+
+- General information about the band
+- Information about the band's previous performances
+- A range of reviews from the band's previous performances
+- A range of images of the band
+- A selection of video and audio content
+- Information about the band's repertoire
+- Information about what a potential client could expect from the band from arrival to departure
+- Contact information in a range of formats
+- links to the band's social media
+
+---
+### Structure
+
+The required information will be laid out in the following pages:
+
+*Home page*
+- A hero image
+    - This will need to be high quality and one that communicates a sense of the band's style and energy
+- A brief description of the style of the music and events the band can cater for
+- A brief summary of contact information and/or link to contact form
+
+*About page*
+- General information about the band
+- Information about band's previous festival appearances and brief testimonial
+- FAQs including information about what a client can expect from the band
+
+*Gallery page*
+- A range of images of the band
+
+*Our Music page*
+- A selection of video and audio clips of the band's performances
+- Information about the band's repertoire
+- Links to social media websites
+
+*Testimonials page*
+- A range of reviews from the band's previous performances
+
+*Contact page*
+- Phone and email contacts
+- A contact form
+
+Notes:
+- The band's name and logo will appear fixed in the top left of the navbar.
+- Social media links will appear in the navbar and in the footer.
+- Contact information and/or a contact form will also appear above the footer on every page to make this information easily accessible.
+
+
+Here is a proposed [site map](site_map.png "Opens site map as png") for the above pages.
+
+---
+### Skeleton
+
+#### Wireframes
+
+The following wireframes were created in Balsamiq and include responsive design ideas for Laptop, Tablet and Mobile devices.
+
+[Home](./wireframes/home.png "Opens Home page wireframe as png")  
+[About](wireframes/about.png "Opens About page wireframe as png")  
+[Gallery](wireframes/gallery.png "Opens Gallery page wireframe as png")  
+[Our Music](wireframes/our_music.png "Opens Our Music page wireframe as png")  
+[Testimonials](wireframes/testimonials.png "Opens Testimonials page wireframe as png")  
+[Contact](wireframes/contact.png "Opens Contact page wireframe as png")  
+
+---
+### Surface
+
+#### Design choices
+
+**Layout**
+
+- The navbar will be fixed at the top of the screen so that at any point, a user can navigate to any of the main pages. (On mobile, the nav menu will appear as a list icon).
+- The logo and name of the band will be fixed in the left of the navbar.
+
+**Fonts**
+
+- Font for band name:
+- Font for headings
+- Sans-serif font selected for the main body
+
+**Icons**
+
+The following icons from FontAwesome will be used in the site:
+- Martini as main logo (placeholder for a more unique logo design)
+- Phone
+- Email
+
+**Colours**
+
+Palette will be derived from the main images used on the site.
+- The band wears formal wear for their performances (DJs, white shirts, sparkly ball gowns), and so the background palette will build on this:
+    - A high contrast between black and off-white with some splashes of colour, taken from the colours in the background and gallery images.
+
+**Styling**
+
+- The aim is to minimise the written content and major on the visual impact of images, audio/video and clear layout.
+- The highest volume of text will be on the About page:
+    - This will be broken up into sections with different visual cues for the About us and FAQ section.
+
+**Images and backgrounds**
+
+- A range of images from the band's performances have been used as background images and in the Gallery section
+- To give these a consistent sense of style, saturation has been reduced and a warm filter has been applied.
+- Background images will have an opacity applied (using rgba) to ensure that the text is clear, but such that the image can still 'speak'.
+- Size and resolution of images will be adjusted to ensure that they load as quickly as possible. 
+
+**Audio/video files**
+
+- Video files will either be embedded Youtube clips or saved with the project files. If the latter, then these will be edited down to minimise load time.
+- Audio files will be edited clips (not full tracks) and compressed to minimise load time.
+
