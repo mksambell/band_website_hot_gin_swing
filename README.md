@@ -104,7 +104,7 @@ Notes:
 - Contact information and/or a contact form will also appear above the footer on every page to make this information easily accessible.
 
 
-Here is a proposed [site map](site_map.png "Opens site map as png") for the above pages.
+Here is a proposed [site map](./assets/site_map.png "Opens site map as png") for the above pages.
 
 ---
 ### Skeleton
@@ -113,12 +113,12 @@ Here is a proposed [site map](site_map.png "Opens site map as png") for the abov
 
 The following wireframes were created in Balsamiq and include responsive design ideas for Laptop, Tablet and Mobile devices.
 
-[Home](./wireframes/home.png "Opens Home page wireframe as png")  
-[About](wireframes/about.png "Opens About page wireframe as png")  
-[Gallery](wireframes/gallery.png "Opens Gallery page wireframe as png")  
-[Our Music](wireframes/our_music.png "Opens Our Music page wireframe as png")  
-[Testimonials](wireframes/testimonials.png "Opens Testimonials page wireframe as png")  
-[Contact](wireframes/contact.png "Opens Contact page wireframe as png")  
+[Home](assets/wireframes/home.png "Opens Home page wireframe as png")  
+[About](assets/wireframes/about.png "Opens About page wireframe as png")  
+[Gallery](assets/wireframes/gallery.png "Opens Gallery page wireframe as png")  
+[Our Music](assets/wireframes/our_music.png "Opens Our Music page wireframe as png")  
+[Testimonials](assets/wireframes/testimonials.png "Opens Testimonials page wireframe as png")  
+[Contact](assets/wireframes/contact.png "Opens Contact page wireframe as png")  
 
 ---
 ### Surface
