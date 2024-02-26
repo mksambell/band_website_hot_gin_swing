@@ -1,3 +1,11 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------------------------------------------------Colours*/
+
+/* Band name and Navbar = rgba(63,63,63,.8) / #3f3f3f
+
 /* placeholder div*/
 div.container-fluid.background {
     margin: 0;
@@ -6,12 +14,12 @@ div.container-fluid.background {
     height: 300px;
 }
 
-/*-----------------------------------------------------navbar*/
+/*-----------------------------------------------------Navbar*/
 
 .navbar {
     padding: 0 6px; !important
 }
-.navbar .navbar-brand {
+.navbar a.navbar-brand {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     font-size: 22px;
@@ -20,7 +28,11 @@ div.container-fluid.background {
     padding-top: 8px;
 }
 
-.nav-item.nav-link {
+.navbar a.navbar-brand:hover {
+    color: red;
+}
+
+a.nav-item.nav-link {
     font-family: "Raleway", sans-serif;
     color: #3f3f3f;
     font-size: 10px;
@@ -28,12 +40,58 @@ div.container-fluid.background {
     padding: 5px;
 }
 
+.navbar-nav a.nav-item.nav-link:hover {
+    color: red;
+}
+
+.navbar-nav a.nav-item.nav-link.active {
+    color: limegreen
+}
+
 a.nav-item.nav-link i {
     font-size: 14px;
     padding-top: 1px;
 }
 
+/*---------------------------------------------------Footer*/
 
+div .footer-bandname a {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 500;
+    color: rgba(63,63,63,.8);
+    padding: 0;
+}
 
+div .footer-bandname a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+div .footer-contact-info, div .footer-contact-info a {
+    font-size: 7px;
+    color: #3f3f3f;
+    padding-top: 1px;
+}
+
+div .footer-contact-info a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+div .footer-social-media i {
+    padding: 0 8px;
+    color: rgba(63,63,63,.8);
+    font-size: 14px;
+}
+
+div .footer-social-media i:hover {
+    color: red;
+}
+
+div.col-sm.text-center.footer-right {
+    padding-top: 10px;
+}
 /*---------------------------------------------------Media Queries*/
 
