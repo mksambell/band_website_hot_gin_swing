@@ -7,6 +7,7 @@
     - [Structure](#structure)
     - [Skeleton](#skeleton)
     - [Surface](#surface)
+2. [Credits](#2-credits)
 
 ## 1. UX
 
@@ -166,4 +167,11 @@ Palette will be derived from the main images used on the site.
 
 - Video files will either be embedded Youtube clips or saved with the project files. If the latter, then these will be edited down to minimise load time.
 - Audio files will be edited clips (not full tracks) and compressed to minimise load time.
+
+---
+## 2. Credits
+
+### Code
+
+- Navbar code based on [Boostrap template](https://getbootstrap.com/docs/4.2/components/navbar/#placement)
 

@@ -1,2 +1,39 @@
-h1 {
-    font-family: "Tenor Sans";
+/* placeholder div*/
+div.container-fluid.background {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 300px;
+}
+
+/*-----------------------------------------------------navbar*/
+
+.navbar {
+    padding: 0 6px; !important
+}
+.navbar .navbar-brand {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(63,63,63,.8);
+    padding-top: 8px;
+}
+
+.nav-item.nav-link {
+    font-family: "Raleway", sans-serif;
+    color: #3f3f3f;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+a.nav-item.nav-link i {
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+
+
+/*---------------------------------------------------Media Queries*/
+
