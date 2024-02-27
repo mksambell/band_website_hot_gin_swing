@@ -19,25 +19,26 @@ div.container-fluid.background {
 .navbar {
     padding: 0 6px; !important
 }
-.navbar a.navbar-brand {
+.navbar a.navbar-brand h1 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 200%;
     font-weight: 500;
     color: rgba(63,63,63,.8);
     padding-top: 8px;
+    margin-bottom: 0;
 }
 
-.navbar a.navbar-brand:hover {
+.navbar a.navbar-brand h1:hover {
     color: red;
 }
 
 a.nav-item.nav-link {
     font-family: "Raleway", sans-serif;
     color: #3f3f3f;
-    font-size: 10px;
+    font-size: 95%;
     font-weight: 500;
-    padding: 5px;
+    padding: 5px 6px;
 }
 
 .navbar-nav a.nav-item.nav-link:hover {
@@ -49,49 +50,55 @@ a.nav-item.nav-link {
 }
 
 a.nav-item.nav-link i {
-    font-size: 14px;
+    font-size: 110%;
     padding-top: 1px;
 }
 
 /*---------------------------------------------------Footer*/
 
-div .footer-bandname a {
+.footer {
+    padding: 10px 20%;
+}
+.footer-bandname a h4 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 100%;
     font-weight: 500;
     color: rgba(63,63,63,.8);
     padding: 0;
 }
 
-div .footer-bandname a:hover {
+.footer-bandname a:hover {
     text-decoration: none;
     color: red;
 }
 
-div .footer-contact-info, div .footer-contact-info a {
-    font-size: 7px;
+.footer-contact-info h4, .footer-contact-info a h4 {
+    font-size: 12px;
     color: #3f3f3f;
-    padding-top: 1px;
 }
 
-div .footer-contact-info a:hover {
+.footer-contact-info a:hover,
+.footer-bandname a:hover,
+.footer-social-media a:hover {
     text-decoration: none;
+}
+
+#footer-form:hover,
+#footer-logo:hover,
+#footer-media-link:hover {
     color: red;
 }
 
-div .footer-social-media i {
+.footer-social-media {
+    padding-bottom: 10px;
+}
+
+.footer-social-media i {
     padding: 0 8px;
     color: rgba(63,63,63,.8);
-    font-size: 14px;
+    font-size: 120%;
 }
 
-div .footer-social-media i:hover {
-    color: red;
-}
-
-div.col-sm.text-center.footer-right {
-    padding-top: 10px;
-}
 /*---------------------------------------------------Media Queries*/
 
