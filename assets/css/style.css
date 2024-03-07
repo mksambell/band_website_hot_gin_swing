@@ -4,33 +4,42 @@ body {
 
 /*-----------------------------------------------------Colours*/
 
-/* Band name and Navbar = rgba(63,63,63,.8) / #3f3f3f
+/* Colours taken from hero image */
+/* Band name = #2E2422 */
+/* Link hover = #A43134 */
 
-/* placeholder div*/
-div.container-fluid.background {
-    margin: 0;
-    padding: 0;
+
+/*----------------------------------------------------Hero Image*/
+
+#hero-image {
+    margin: 0 auto;
+    padding: 0 50px 0 0;
+    width: 100%;
+    height: 900px;
     background-color: black;
-    height: 300px;
+    background: url("../images/hero-singer.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 /*-----------------------------------------------------Navbar*/
 
-.navbar {
-    padding: 0 6px; !important
+.navbar.fixed-top.navbar-expand-md.navbar-light.bg-light {
+    padding: 0 6px;
+    height: 10vh;
 }
+
 .navbar a.navbar-brand h1 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
     font-size: 200%;
     font-weight: 500;
-    color: rgba(63,63,63,.8);
+    color: #2E2422;
     padding-top: 8px;
     margin-bottom: 0;
 }
 
 .navbar a.navbar-brand h1:hover {
-    color: red;
+    color: #A43134;
 }
 
 a.nav-item.nav-link {
@@ -42,11 +51,11 @@ a.nav-item.nav-link {
 }
 
 .navbar-nav a.nav-item.nav-link:hover {
-    color: red;
+    color: #A43134;
 }
 
 .navbar-nav a.nav-item.nav-link.active {
-    color: limegreen
+    color: #2E2422;
 }
 
 a.nav-item.nav-link i {
@@ -64,18 +73,18 @@ a.nav-item.nav-link i {
     text-transform: uppercase;
     font-size: 100%;
     font-weight: 500;
-    color: rgba(63,63,63,.8);
+    color: #2E2422;
     padding: 0;
 }
 
 .footer-bandname a:hover {
     text-decoration: none;
-    color: red;
+    color: #A43134;
 }
 
 .footer-contact-info h4, .footer-contact-info a h4 {
     font-size: 12px;
-    color: #3f3f3f;
+    color: #2E2422;
 }
 
 .footer-contact-info a:hover,
@@ -87,7 +96,7 @@ a.nav-item.nav-link i {
 #footer-form:hover,
 #footer-logo:hover,
 #footer-media-link:hover {
-    color: red;
+    color: #A43134;
 }
 
 .footer-social-media {
@@ -96,7 +105,7 @@ a.nav-item.nav-link i {
 
 .footer-social-media i {
     padding: 0 8px;
-    color: rgba(63,63,63,.8);
+    color: #2E2422;
     font-size: 120%;
 }
 
