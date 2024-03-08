@@ -2,6 +2,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+}
+
 /*-----------------------------------------------------Colours*/
 
 /* Colours taken from hero image */
@@ -9,28 +14,72 @@ body {
 /* Link hover = #A43134 */
 
 
-/*----------------------------------------------------Hero Image*/
+/*---------------------------------------------------- Homepage Hero Image*/
 
-#hero-image {
+#hero-image-container {
+    position: relative;
     margin: 0 auto;
-    padding: 0 50px 0 0;
+    margin-top: 66px;
+    padding: 0;
     width: 100%;
-    height: 900px;
+    height: 100vh;
     background-color: black;
-    background: url("../images/hero-singer.jpg") no-repeat center center;
+    background: url("../images/hero-singer.jpg") no-repeat top center fixed;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.opaque-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.homepage-text {
+    color: white;
+    margin-top: 30px;
+}
+
+/*---------------------------------------------------- About page Background and text*/
+
+.container-fluid.about-background {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 66px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: url("../images/about-dancers2.jpg") no-repeat top center scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.container-fluid.faq-background {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 /*-----------------------------------------------------Navbar*/
 
 .navbar.fixed-top.navbar-expand-md.navbar-light.bg-light {
     padding: 0 6px;
-    height: 10vh;
 }
 
 .navbar a.navbar-brand h1 {
-    font-family: "Josefin Sans", sans-serif;
-    text-transform: uppercase;
     font-size: 200%;
     font-weight: 500;
     color: #2E2422;
@@ -56,6 +105,7 @@ a.nav-item.nav-link {
 
 .navbar-nav a.nav-item.nav-link.active {
     color: #2E2422;
+    font-weight: 500;
 }
 
 a.nav-item.nav-link i {
