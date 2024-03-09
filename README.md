@@ -7,7 +7,9 @@
     - [Structure](#structure)
     - [Skeleton](#skeleton)
     - [Surface](#surface)
-2. [Credits](#2-credits)
+2. [Testing](#2-testing)
+	- [Bugs](#bugs)
+3. [Credits](#3-credits)
 
 ## 1. UX
 
@@ -169,9 +171,23 @@ Palette will be derived from the main images used on the site.
 - Audio files will be edited clips (not full tracks) and compressed to minimise load time.
 
 ---
-## 2. Credits
+## 2. Testing
+
+### Bugs
+
+- About page - containers not adjusting height dynamically when resizing viewport
+
+---
+## 3. Credits
 
 ### Code
 
-- Navbar code based on [Boostrap template](https://getbootstrap.com/docs/4.2/components/navbar/#placement)
+- Navbar code copied from [Boostrap](https://getbootstrap.com/docs/4.2/components/navbar/#placement) and edited and styled
 
+### Images
+
+- About page background image by Ardian Lumi, downloaded from [Unsplash](https://unsplash.com/photos/group-of-people-dancing-6Woj_wozqmA)
+
+- FAQ background image by Miti, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-cielo-black-and-white-photography-vSws0g1KjxI)
+
+- All other images taken by the band

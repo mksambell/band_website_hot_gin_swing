@@ -53,7 +53,7 @@ h1 {
     width: 100%;
     height: 100vh;
     background-color: black;
-    background: url("../images/about-dancers2.jpg") no-repeat top center scroll;
+    background: url("../images/about-dancers.jpg") no-repeat top center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -67,10 +67,23 @@ h1 {
     width: 100%;
     height: 100vh;
     background-color: black;
+    background: url("../images/faq-bass.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+}
+
+.about-page-text {
+    color: white;
+    margin: 50px 50px;
+    padding: 30px;
+}
+
+.faq-text {
+    color: white;
+    margin: 20px 50px;
+    padding: 30px;
 }
 
 /*-----------------------------------------------------Navbar*/
