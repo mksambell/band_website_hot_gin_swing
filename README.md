@@ -191,3 +191,7 @@ Palette will be derived from the main images used on the site.
 - FAQ background image by Miti, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-cielo-black-and-white-photography-vSws0g1KjxI)
 
 - All other images taken by the band
+
+### Video
+
+- Embed code copied from [Youtube](https://www.youtube.com/watch?v=-6qFbtDSqgM)

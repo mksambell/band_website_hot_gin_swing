@@ -56,6 +56,8 @@ a.nav-item.nav-link i {
 
 /*---------------------------------------------------- Homepage Hero Image*/
 
+/* TO DO - collate shared container-fluid background characteristics into one rule */
+
 #hero-image-container {
     position: relative;
     margin: 0 auto;
@@ -151,6 +153,40 @@ a.nav-item.nav-link i {
     opacity: 1;
 }
 
+/*---------------------------------------------------Music*/
+
+.container-fluid.music-background {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 66px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.video-item {
+    padding: 50px 70px;
+}
+/*---------------------------------------------------Testimonials */
+
+.container-fluid.testimonials-background {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: url("../images/testimonials-stage.jpg") no-repeat top center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 /*---------------------------------------------------Footer*/
 
 .footer {
@@ -199,3 +235,9 @@ a.nav-item.nav-link i {
 
 /*---------------------------------------------------Media Queries*/
 
+/* Tablet */
+/* reduce video padding */
+/* reduce spacing between navlinks */
+
+/* Mobile */
+/* reduce size of main logo and burger icon to accommodate inline */
