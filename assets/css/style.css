@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
+    height: 100%;
 }
 
 h1 {
@@ -13,6 +14,45 @@ h1 {
 /* Band name = #2E2422 */
 /* Link hover = #A43134 */
 
+/*-----------------------------------------------------Navbar*/
+
+.navbar.fixed-top.navbar-expand-md.navbar-light.bg-light {
+    padding: 0 6px;
+}
+
+.navbar a.navbar-brand h1 {
+    font-size: 200%;
+    font-weight: 500;
+    color: #2E2422;
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+
+.navbar a.navbar-brand h1:hover {
+    color: #A43134;
+}
+
+a.nav-item.nav-link {
+    font-family: "Raleway", sans-serif;
+    color: #3f3f3f;
+    font-size: 95%;
+    font-weight: 500;
+    padding: 5px 6px;
+}
+
+.navbar-nav a.nav-item.nav-link:hover {
+    color: #A43134;
+}
+
+.navbar-nav a.nav-item.nav-link.active {
+    color: #2E2422;
+    font-weight: 500;
+}
+
+a.nav-item.nav-link i {
+    font-size: 110%;
+    padding-top: 1px;
+}
 
 /*---------------------------------------------------- Homepage Hero Image*/
 
@@ -86,44 +126,29 @@ h1 {
     padding: 30px;
 }
 
-/*-----------------------------------------------------Navbar*/
+/*------------------------------------------------------Gallery*/
 
-.navbar.fixed-top.navbar-expand-md.navbar-light.bg-light {
-    padding: 0 6px;
+.container-fluid.gallery-background {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 66px;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
-.navbar a.navbar-brand h1 {
-    font-size: 200%;
-    font-weight: 500;
-    color: #2E2422;
-    padding-top: 8px;
-    margin-bottom: 0;
+#photo-gallery img {
+    padding: 5px;
+    opacity: .8;
 }
 
-.navbar a.navbar-brand h1:hover {
-    color: #A43134;
-}
-
-a.nav-item.nav-link {
-    font-family: "Raleway", sans-serif;
-    color: #3f3f3f;
-    font-size: 95%;
-    font-weight: 500;
-    padding: 5px 6px;
-}
-
-.navbar-nav a.nav-item.nav-link:hover {
-    color: #A43134;
-}
-
-.navbar-nav a.nav-item.nav-link.active {
-    color: #2E2422;
-    font-weight: 500;
-}
-
-a.nav-item.nav-link i {
-    font-size: 110%;
-    padding-top: 1px;
+#photo-gallery img:hover {
+    opacity: 1;
 }
 
 /*---------------------------------------------------Footer*/

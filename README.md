@@ -89,7 +89,7 @@ The required information will be laid out in the following pages:
 *Gallery page*
 - A range of images of the band
 
-*Our Music page*
+*Music page*
 - A selection of video and audio clips of the band's performances
 - Information about the band's repertoire
 - Links to social media websites
@@ -119,7 +119,7 @@ The following wireframes were created in Balsamiq and include responsive design 
 [Home](assets/wireframes/home.png "Opens Home page wireframe as png")  
 [About](assets/wireframes/about.png "Opens About page wireframe as png")  
 [Gallery](assets/wireframes/gallery.png "Opens Gallery page wireframe as png")  
-[Our Music](assets/wireframes/our_music.png "Opens Our Music page wireframe as png")  
+[Music](assets/wireframes/music.png "Opens Our Music page wireframe as png")  
 [Testimonials](assets/wireframes/testimonials.png "Opens Testimonials page wireframe as png")  
 [Contact](assets/wireframes/contact.png "Opens Contact page wireframe as png")  
 
