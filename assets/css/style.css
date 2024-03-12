@@ -54,6 +54,7 @@ a.nav-item.nav-link i {
     padding-top: 1px;
 }
 
+
 /*---------------------------------------------------- Homepage Hero Image*/
 
 /* TO DO - collate shared container-fluid background characteristics into one rule */
@@ -189,9 +190,14 @@ a.nav-item.nav-link i {
 }
 /*---------------------------------------------------Footer*/
 
-.footer {
-    padding: 10px 20%;
+.container-fluid.footer {
+    padding: 20px 100px;
 }
+
+.footer-right {
+    text-align: right;
+}
+
 .footer-bandname a h4 {
     font-family: "Josefin Sans", sans-serif;
     text-transform: uppercase;
@@ -206,7 +212,10 @@ a.nav-item.nav-link i {
     color: #A43134;
 }
 
-.footer-contact-info h4, .footer-contact-info a h4 {
+.footer-contact-info h4, 
+.footer-contact-info a h4,
+.footer-privacy,
+.footer-copyright {
     font-size: 12px;
     color: #2E2422;
 }
@@ -223,14 +232,13 @@ a.nav-item.nav-link i {
     color: #A43134;
 }
 
-.footer-social-media {
-    padding-bottom: 10px;
+#footer-media-link {
+    color: #2E2422;
+    font-size: 150%;
 }
 
-.footer-social-media i {
-    padding: 0 8px;
-    color: #2E2422;
-    font-size: 120%;
+.footer-details {
+    padding-top: 40px;
 }
 
 /*---------------------------------------------------Media Queries*/
