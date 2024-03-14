@@ -58,9 +58,83 @@
         </nav>
     </header>
 
-    <section>
-        <div class="container-fluid background"></div>
-    </section>
+    <!-- Contact Form -->
+    <div class="container-fluid contact-background">
+        <div class="row no-gutters">
+            <div class="col-lg-8 offset-lg-2 opaque-layer">
+                <section class="form-section">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2>Get in touch!</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <p><i class="fa-solid fa-phone">
+                                    <span class="sr-only">Phone Number</span>
+                                </i>
+                                0123456789</p>
+                            <p>
+                                <i class="fa-solid fa-envelope">
+                                    <span class="sr-only">Email</span>
+                                </i> hotginswing@gmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" method="POST" action="#">
+                        <div class="row">
+                            <div class="col-md-6 form-items-left">
+
+                                <label for="name" class="sr-only">Name</label>
+                                <input class="text-input" id="name" type="text" name="name" placeholder="Name" required>
+
+                                <label for="email" class="sr-only">Email</label>
+                                <input class="text-input" id="email" type="email" name="email" placeholder="Email"
+                                    required>
+
+                                <label for="phone" class="sr-only">Phone</label>
+                                <input class="text-input" id="phone" type="tel" name="phone" placeholder="Phone"
+                                    pattern="[0-9]{11}">
+
+                                <label for="message" class="sr-only">Message</label>
+                                <textarea class="text-input" name="message" id="message" placeholder="Message" cols="40"
+                                    rows="7" maxlength="500"></textarea>
+                            </div>
+                            <div class="col-md-6 form-items right">
+
+                                <label for="date" class="sr-only">Date of event</label>
+                                <input class="text-input" type="text" id="date" name="date" placeholder="Date of event">
+
+                                <label for="event" class="sr-only">Type of Event</label>
+                                <input class="text-input" type="text" id="event" name="event"
+                                    placeholder="Type of event">
+                                <br>
+
+                                <p>Which band combination are you interested in?</p>
+                                <p>(Check all that apply)</p>
+                                <input type="checkbox" id="option1" name="Full band" value="Full band">
+                                <label for="option1"> Full band</label><br>
+                                <input type="checkbox" id="option2" name="4-piece" value="4-piece">
+                                <label for="option2"> 4-piece band</label><br>
+                                <input type="checkbox" id="option3" name="3-piece" value="3-piece">
+                                <label for="option3"> 3-piece band</label><br>
+                                <input type="checkbox" id="option4" name="2-piece" value="2-piece">
+                                <label for="option4"> 2-piece band</label><br>
+                                <input type="checkbox" id="option5" name="uncertain" value="Uncertain">
+                                <label for="option5"> Not sure - please advise!</label>
+
+                            </div>
+
+                        </div>
+                        <input class="submit-button" type="submit" value="Send enquiry">
+                    </form>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- </div> -->
+    </div>
+
 
     <footer>
         <div class="container-fluid footer">
@@ -95,25 +169,25 @@
                     </div>
                 </div>
 
-                <div class="col-md-2 offset-md-6 footer-right footer-social-media">
-                    <div class="row">
-                        <div class="col-sm-4 offset-sm-4 justify-content-end">
-                            <a target="_blank" href="https://www.facebook.com/p/Hot-Gin-Swing-100078714736788/">
-                                <i class="fa-brands fa-square-facebook" id="footer-media-link"></i>
-                            </a>
-                        </div>
-                        <div class="col">
-                            <a target="_blank" href="https://www.youtube.com/channel/UCLZgYY-G5zk9oUkVJRfKP2g">
-                                <i class="fa-brands fa-square-youtube" id="footer-media-link"></i>
-                            </a>
-                        </div>
-                        <div class="col-sm-9 offset-sm-3 footer-details">
-                            <h4 class="footer-privacy">Privacy Policy</h4>
-                            <h4 class="footer-copyright">&#169 2024 Hot Gin Swing</h4>
-                        </div>
+                <div class="col-md-3 offset-md-5 footer-right">
+                    <div class="footer-social-media">
+                        <a target="_blank" href="https://www.facebook.com/p/Hot-Gin-Swing-100078714736788/">
+                            <i class="fa-brands fa-square-facebook facebook" id="footer-media-link"></i>
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCLZgYY-G5zk9oUkVJRfKP2g">
+                            <i class="fa-brands fa-square-youtube" id="footer-media-link"></i>
+                        </a>
                     </div>
+                    <div class="footer-details">
+                        <h4 class="footer-privacy">Privacy Policy</h4>
+                        <h4 class="footer-copyright">&#169 2024 Hot Gin Swing</h4>
+                    </div>
+
                 </div>
             </div>
+        </div>
+        </div>
+        </div>
         </div>
     </footer>
 

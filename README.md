@@ -7,9 +7,11 @@
     - [Structure](#structure)
     - [Skeleton](#skeleton)
     - [Surface](#surface)
-2. [Testing](#2-testing)
+2. [Features](#2-features)
+3. [Technology used](#3-technology-used)
+4. [Testing](#4-testing)
 	- [Bugs](#bugs)
-3. [Credits](#3-credits)
+5. [Credits](#5-credits)
 
 ## 1. UX
 
@@ -171,14 +173,34 @@ Palette will be derived from the main images used on the site.
 - Audio files will be edited clips (not full tracks) and compressed to minimise load time.
 
 ---
-## 2. Testing
+## 2. Features
+
+### Future features
+
+- Link contact form to backend server
+- Arrange professional photo and video shoot to replace images and video with higher-quality content
+
+---
+## 3. Technology used
+
+- The code was written in Gitpod using a Github template from Code Institute
+
+- Images were resized and edited using [TinyJPG](https://tinyjpg.com/) and [RedKetchup](https://redketchup.io/image-resizer)
+
+---
+## 4. Testing
+
+### User stories
+
+
 
 ### Bugs
 
 - About page - containers not adjusting height dynamically when resizing viewport
+- - found thread on Stackoverflow explaining that body tag needed to be at 100%
 
 ---
-## 3. Credits
+## 5. Credits
 
 ### Code
 
@@ -186,9 +208,11 @@ Palette will be derived from the main images used on the site.
 
 ### Images
 
-- About page background image by Ardian Lumi, downloaded from [Unsplash](https://unsplash.com/photos/group-of-people-dancing-6Woj_wozqmA)
+- Contact page background image by Ardian Lumi, downloaded from [Unsplash](https://unsplash.com/photos/group-of-people-dancing-6Woj_wozqmA)
 
 - FAQ background image by Miti, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-cielo-black-and-white-photography-vSws0g1KjxI)
+
+- About page background image by Jens Thekkeveettil, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-saxophone-dBWvUqBoOU8)
 
 - All other images taken by the band
 

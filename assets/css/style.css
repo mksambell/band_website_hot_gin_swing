@@ -8,13 +8,14 @@ h1 {
     text-transform: uppercase;
 }
 
-/*-----------------------------------------------------Colours*/
+/*----------------------------------------------------- Colours */
 
-/* Colours taken from hero image */
-/* Band name = #2E2422 */
-/* Link hover = #A43134 */
+/*  Colours taken from hero image
+    Band name = #2E2422
+    Link hover = #A43134
+    Off white background = (248,249,250) */
 
-/*-----------------------------------------------------Navbar*/
+/*----------------------------------------------------- Navbar */
 
 .navbar.fixed-top.navbar-expand-md.navbar-light.bg-light {
     padding: 0 6px;
@@ -54,10 +55,7 @@ a.nav-item.nav-link i {
     padding-top: 1px;
 }
 
-
-/*---------------------------------------------------- Homepage Hero Image*/
-
-/* TO DO - collate shared container-fluid background characteristics into one rule */
+/*---------------------------------------------------- Homepage */
 
 #hero-image-container {
     position: relative;
@@ -81,12 +79,18 @@ a.nav-item.nav-link i {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.homepage-text {
+.homepage-text,
+.homepage-text a {
     color: white;
     margin-top: 30px;
 }
 
-/*---------------------------------------------------- About page Background and text*/
+.homepage-text a:hover {
+    text-decoration: none;
+    color: #A43134;
+}
+
+/*---------------------------------------------------- About page */
 
 .container-fluid.about-background {
     position: relative;
@@ -96,7 +100,7 @@ a.nav-item.nav-link i {
     width: 100%;
     height: 100vh;
     background-color: black;
-    background: url("../images/about-dancers.jpg") no-repeat top center scroll;
+    background: url("../images/about-sax.jpg") no-repeat top center scroll;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -129,7 +133,7 @@ a.nav-item.nav-link i {
     padding: 30px;
 }
 
-/*------------------------------------------------------Gallery*/
+/*------------------------------------------------------ Gallery page */
 
 .container-fluid.gallery-background {
     position: relative;
@@ -147,14 +151,14 @@ a.nav-item.nav-link i {
 
 #photo-gallery img {
     padding: 5px;
-    opacity: .8;
+    opacity: .9;
 }
 
 #photo-gallery img:hover {
     opacity: 1;
 }
 
-/*---------------------------------------------------Music*/
+/*--------------------------------------------------- Music page */
 
 .container-fluid.music-background {
     position: relative;
@@ -173,11 +177,32 @@ a.nav-item.nav-link i {
 .video-item {
     padding: 50px 70px;
 }
-/*---------------------------------------------------Testimonials */
+
+.container-fluid.repertoire-background {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: url("../images/faq-bass.jpg") no-repeat top center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.repertoire-text {
+    color: white;
+    margin: 50px 50px;
+    padding: 30px;
+}
+/*--------------------------------------------------- Testimonials page */
 
 .container-fluid.testimonials-background {
     position: relative;
     margin: 0 auto;
+    margin-top: 66px;
     padding: 0;
     width: 100%;
     height: 100vh;
@@ -188,7 +213,59 @@ a.nav-item.nav-link i {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
-/*---------------------------------------------------Footer*/
+
+/*--------------------------------------------------- Contact */
+
+.container-fluid.contact-background {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 66px;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: url("../images/about-dancers.jpg") no-repeat top center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: auto;
+}
+
+.contact-background .opaque-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    margin-top: 50px;
+}
+
+.form-section {
+    padding: 20px 20px;
+}
+
+.form-section h2, 
+.form-section p {
+    color: white;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+textarea {
+    resize: none;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+/*--------------------------------------------------- Footer */
 
 .container-fluid.footer {
     padding: 20px 100px;
@@ -241,7 +318,11 @@ a.nav-item.nav-link i {
     padding-top: 40px;
 }
 
-/*---------------------------------------------------Media Queries*/
+.footer-social-media .facebook {
+    padding-right: 15px;
+}
+
+/*--------------------------------------------------- Media Queries /
 
 /* Tablet */
 /* reduce video padding */
