@@ -17,6 +17,10 @@ h1 {
 
 /*----------------------------------------------------- Navbar */
 
+.navbar-nav {
+    position: relative;
+}
+
 .navbar.fixed-top.navbar-expand-md.navbar-light.bg-light {
     padding: 0 6px;
 }
@@ -33,7 +37,8 @@ h1 {
     color: #A43134;
 }
 
-a.nav-item.nav-link {
+a.nav-item.nav-link,
+.dropdown-menu {
     font-family: "Raleway", sans-serif;
     color: #3f3f3f;
     font-size: 95%;
@@ -142,7 +147,7 @@ a.nav-item.nav-link i {
     padding: 0;
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: black;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -167,7 +172,7 @@ a.nav-item.nav-link i {
     padding: 0;
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: black;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

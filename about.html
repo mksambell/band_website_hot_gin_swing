@@ -37,8 +37,13 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link active" href="about.html">About <span
-                            class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link dropdown-toggle" id="about-dropdown" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" data-reference="parent"
+                        href="about.html">About <span class="sr-only">(current)</span></a>
+                    <div class="dropdown-menu" aria-labelledby="about-dropdown">
+                        <a class="dropdown-item" href="about.html">About us</a>
+                        <a class="dropdown-item" href="#faq-section">FAQs</a>
+                    </div>
                     <a class="nav-item nav-link" href="gallery.html">Gallery</a>
                     <a class="nav-item nav-link" href="music.html">Music</a>
                     <a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
@@ -91,7 +96,7 @@
         <div class="opaque-layer">
             <div class="row no-gutters">
                 <div class="col-lg-8">
-                    <section class="faq-text">
+                    <section class="faq-text" id="faq-section">
                         <h2>FAQs</h2>
                         <br>
                         <h5>What style of music does the band play?</h5>
