@@ -214,6 +214,8 @@ Palette will be derived from the main images used on the site.
 
 - About page background image by Jens Thekkeveettil, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-saxophone-dBWvUqBoOU8)
 
+- Media background image by Daniel Lazar, downloaded for free from [Unsplash](https://unsplash.com/photos/brown-and-white-piano-keys-KWUuFjXWzcI)
+
 - All other images taken by the band
 
 ### Video

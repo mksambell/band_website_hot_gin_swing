@@ -160,7 +160,7 @@ a.nav-item.nav-link i {
 }
 
 .about-background .opaque-layer {
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container-fluid.faq-background {
@@ -168,7 +168,7 @@ a.nav-item.nav-link i {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: black;
     background: url("../images/faq-bass.jpg") no-repeat top center fixed;
     background-size: cover;
@@ -186,17 +186,13 @@ a.nav-item.nav-link i {
 .faq-text,
 .about-text-right {
     margin: 50px 50px;
-    padding: 20px; 
+    padding: 20px;
 }
 
 .about-text-left,
 .faq-text {
     color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.8); 
-}
-
-#festival-link {
-    width: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .welcome {
@@ -205,7 +201,7 @@ a.nav-item.nav-link i {
     color: #A43134;
 }
 
-.about-text-left .dotted-line {
+.about-text-left .dotted-line, {
     align: left;
     width: 33%;
 }
@@ -253,16 +249,23 @@ a.nav-item.nav-link i {
     margin-top: 66px;
     padding: 0;
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: black;
+    background: url("../images/media-piano.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 }
 
-.video-item {
-    padding: 50px 100px;
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+    margin: 10px;
+    width: 90%;
+    height: 90%;
 }
 
 .container-fluid.repertoire-background {
@@ -282,8 +285,16 @@ a.nav-item.nav-link i {
 .repertoire-text,
 .video-links {
     color: #f8f9fa;
-    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px 50px;
+    padding: 20px;
 }
+ 
+.video-links .dotted-line, {
+    align: left;
+    width: 33%;
+}
+
 
 /*--------------------------------------------------- Testimonials page */
 
@@ -308,6 +319,7 @@ a.nav-item.nav-link i {
     color: #f8f9fa;
     background-color: rgba(0, 0, 0, 0.4);
 }
+
 /*--------------------------------------------------- Contact */
 
 .container-fluid.contact-background {
@@ -424,7 +436,7 @@ input.submit-button:active {
     color: #A43134;
 }
 
-.footer-contact-info h4, 
+.footer-contact-info h4,
 .footer-contact-info a h4,
 .footer-privacy,
 .footer-copyright {

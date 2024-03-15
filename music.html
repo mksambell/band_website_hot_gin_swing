@@ -39,13 +39,13 @@
                     <a class="nav-item nav-link" href="index.html">Home</a>
                     <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" role="button"
                         aria-haspopup="true" aria-expanded="false" data-reference="parent" href="about.html">About</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="about.html">About us</a>
-                            <a class="dropdown-item" href="about.html#faq-section">FAQs</a>
-                        </div>
-                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="about.html">About us</a>
+                        <a class="dropdown-item" href="about.html#faq-section">FAQs</a>
                     </div>
-                    <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+                </div>
+                <div class="navbar-nav">
                     <a class="nav-item nav-link dropdown-toggle active" id="music-dropdown" data-toggle="dropdown"
                         role="button" aria-haspopup="true" aria-expanded="false" data-reference="parent"
                         href="music.html">Music <span class="sr-only">(current)</span></a>
@@ -72,34 +72,45 @@
 
 
     <div class="container-fluid music-background">
-        <section class="video-links">
-            <h2>Media</h2>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 embed-responsive embed-responsive-16by9">
-                    <iframe class="video-item embed-responsive-item"
-                        src="https://www.youtube.com/embed/d4g6RSFMEOk?si=oFvPCVNLAkYb1skH" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                </div>
-                <div class="col-md-6 col-sm-12 embed-responsive embed-responsive-16by9">
-                    <iframe class="video-item embed-responsive-item"
-                        src="https://www.youtube.com/embed/-6qFbtDSqgM?si=8DijU0A47BRFrW9I" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
+        <div class="opaque-layer">
+            <div class="row no-gutters">
+                <div class="col-lg-8">
+                    <section class="video-links">
+                        <h2>Media</h2>
+
+                        <br>
+                        <p>Check out the full band in action in our live videos! Visit our Youtube channel to see more.</p>
+                        <hr class="dotted-line">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-12 embed-responsive embed-responsive-16by9" id="windsor-video">
+
+                                <iframe class="video-item embed-responsive-item border border-white"
+                                    src="https://www.youtube.com/embed/d4g6RSFMEOk?si=oFvPCVNLAkYb1skH"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-md-6 col-sm-12 embed-responsive embed-responsive-16by9">
+                                <iframe class="video-item embed-responsive-item border border-white"
+                                    src="https://www.youtube.com/embed/-6qFbtDSqgM?si=8DijU0A47BRFrW9I"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
-    
+
     <div class="container-fluid repertoire-background" id="repertoire-section">
         <div class="opaque-layer">
             <div class="row no-gutters">
                 <div class="col-lg-8">
                     <section class="repertoire-text">
                         <h2>Repertoire</h2>
-                              
+
                     </section>
 
                 </div>
