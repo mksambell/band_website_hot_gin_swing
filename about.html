@@ -37,7 +37,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="index.html">Home</a>
-                    <a class="nav-item nav-link dropdown-toggle" id="about-dropdown" data-toggle="dropdown"
+                    <a class="nav-item nav-link dropdown-toggle active" id="about-dropdown" data-toggle="dropdown"
                         role="button" aria-haspopup="true" aria-expanded="false" data-reference="parent"
                         href="about.html">About <span class="sr-only">(current)</span></a>
                     <div class="dropdown-menu" aria-labelledby="about-dropdown">
@@ -45,7 +45,15 @@
                         <a class="dropdown-item" href="#faq-section">FAQs</a>
                     </div>
                     <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-                    <a class="nav-item nav-link" href="music.html">Music</a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link dropdown-toggle" id="music-dropdown" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" data-reference="parent"
+                        href="music.html">Music</a>
+                    <div class="dropdown-menu" aria-labelledby="music-dropdown">
+                        <a class="dropdown-item" href="music.html">Media</a>
+                        <a class="dropdown-item" href="music.html#repertoire-section">Repertoire</a>
+                    </div>
                     <a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
                     <a class="nav-item nav-link d-none d-lg-block" target="_blank"
@@ -68,23 +76,52 @@
         <div class="opaque-layer">
             <div class="row no-gutters">
                 <div class="col-lg-8">
-                    <section class="about-page-text">
+                    <section class="about-text-left">
                         <h2>About us</h2>
                         <br>
-                        <p>We love playing music for a range of events, from drinks receptions, award ceremonies and
-                            anniversary celebrations, to weddings, tea dances and festivals.</p>
-                        <p>We tailor our repertoire and the size of the band to meet your requirements: duo, trio,
-                            quartet, or the full band! We can also provide a combination: for example, a piano and bass
-                            duet for a drinks reception, followed by the full band for an evening dance.</p>
-                        <p>Because we offer a bespoke service, we prefer to discuss fees on an individual basis.</p>
-                        <p>See the FAQs below for more information. If you have any further questions or would like to
+                        <p class="welcome">Welcome to Hot Gin Swing!</p>
+                        <hr class="dotted-line">
+                        <p>We are a 6-piece jazz / swing band based in South Wales, featuring some of the regions'
+                            finest musicians. </p>
+                        <p>We love to play for dances, parties, weddings, festivals, corporate events...you name it!</p>
+                        <p>We tailor our repertoire and the size of the band to meet the requirements of each event. We
+                            play as a duo, trio, quartet, or the full band.
+                            We can also provide a combination: for example, a piano and bass duet for a drinks
+                            reception, followed by the full band for an evening dance.</p>
+                        <p>We offer a bespoke service so we prefer to discuss fees on an individual basis.</p>
+                        <p>See the FAQs below for more information and check out the rest of the site for pictures,
+                            videos and testimonials.
+                            If you have any further questions or would like to
                             make a booking, don't hestitate to get in touch. We look forward to hearing from you!</p>
                     </section>
 
                 </div>
                 <div class="col-lg-4">
-                    <section class="about-page-text">
-                        <p>Information about Festival appearances and dance groups</p>
+                    <section class="about-text-right">
+                        <!-- <h2>Appearances</h2>
+                        <br> -->
+
+                        <div>
+                            <a id="festival-link" href="https://www.vintagenostalgiafestival.co.uk/" target="_blank">
+                                <img src="/assets/images/vintage-nostalgia.png" class="img-fluid img-thumbnail"
+                                    alt="Vintage Nostalgia Festival Logo">
+                            </a>
+                        </div>
+                        <br>
+                        <div>
+                            <a id="festival-link" href="https://www.vintageforvictory.co.uk/" target="_blank">
+                                <img src="/assets/images/vintage-for-victory.png" class="img-fluid img-thumbnail"
+                                    alt="Vintage for Victory Festival Logo">
+                            </a>
+                        </div>
+                        <br>
+                        <div>
+                            <a id="festival-link" href="https://www.facebook.com/p/Gwyl-Brynaman-100068932092251/"
+                                target="_blank">
+                                <img src="/assets/images/brynaman-festival.png" class="img-fluid img-thumbnail"
+                                    alt="Gwyl Brynaman Festival">
+                            </a>
+                        </div>
                     </section>
 
                 </div>
@@ -92,18 +129,19 @@
 
         </div>
     </div>
-    <div class="container-fluid faq-background">
+    <div class="container-fluid faq-background" id="faq-section">
         <div class="opaque-layer">
             <div class="row no-gutters">
                 <div class="col-lg-8">
-                    <section class="faq-text" id="faq-section">
+                    <section class="faq-text">
                         <h2>FAQs</h2>
                         <br>
                         <h5>What style of music does the band play?</h5>
-                        <p>Our repertoire is largely jazz and swing, but we also play a range of soul, rhythm and blues,
+                        <p class="faq-answer">Our repertoire is largely jazz and swing, but we also play a range of
+                            soul, rhythm and blues,
                             and contemporary pop. Take a look at our Music page for more details.</p>
                         <h5>What combinations of musicians do you offer?</h5>
-                        <p>We pride ourselves on being able to offer a flexible range of formats:
+                        <p class="faq-answer">We pride ourselves on being able to offer a flexible range of formats:
                             <ul>
                                 <li>2-piece: vocals and piano / vocals, sax and backing tracks / piano and bass / piano
                                     and sax</li>
@@ -113,12 +151,15 @@
                             </ul>
                         </p>
                         <h5>How long does the band play for?</h5>
-                        <p>Our standard booking is 2 x 45 minutes sets, but we are happy to discuss playing for longer
-                            or for different time arrangements.</p>
+                        <p class="faq-answer">Our standard booking is 2 x 45 minutes sets, but we are happy to discuss
+                            playing for longer
+                            or for different time arrangements</p>
                         <h5>Can you play strict tempo dance music?</h5>
-                        <p>Yes! We love to play for dancers! We have a tailored set designed just for </p>
+                        <p class="faq-answer">Yes! We love to play for dancers! We have tailored sets for a range of
+                            dance styles</p>
                         <h5>What does the band wear?</h5>
-                        <p>We like to dress smart: dresses, DJs and dickie bows! If you need a less formal look for your
+                        <p class="faq-answer">We like to dress smart: dresses, DJs and dickie bows! If you need a less
+                            formal look for your
                             event, we can also dress down!</p>
 
                     </section>

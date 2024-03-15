@@ -17,7 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
     <!--Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -25,7 +25,7 @@
 
 <body>
     <header>
-        <!-- Navbar -->
+        <!-- Navbar template code from Bootstrap documentation -->
         <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
             <a class="navbar-brand" href="index.html">
                 <h1>Hot Gin Swing</h1>
@@ -36,15 +36,24 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                        aria-haspopup="true" aria-expanded="false" href="about.html">About</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="about.html">About us</a>
-                            <a class="dropdown-item" href="about.html#faq-section">FAQs</a>
-                        </div>
+                        aria-haspopup="true" aria-expanded="false" data-reference="parent" href="about.html">About</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="about.html">About us</a>
+                        <a class="dropdown-item" href="about.html#faq-section">FAQs</a>
+                    </div>
                     <a class="nav-item nav-link" href="gallery.html">Gallery</a>
-                    <a class="nav-item nav-link" href="music.html">Music</a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link dropdown-toggle" id="music-dropdown" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" data-reference="parent"
+                        href="music.html">Music </a>
+                    <div class="dropdown-menu" aria-labelledby="music-dropdown">
+                        <a class="dropdown-item" href="music.html">Media</a>
+                        <a class="dropdown-item" href="music.html#repertoire-section">Repertoire</a>
+                    </div>
                     <a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
                     <a class="nav-item nav-link d-none d-lg-block" target="_blank"
@@ -68,26 +77,29 @@
             <div class="row no-gutters">
                 <div class="col-lg-4 offset-lg-8">
                     <section class="homepage-text">
-                        <h1>Hot Gin Swing</h1>
+                        <h1 class="homepage-logo">Hot Gin Swing</h1>
                         <hr>
-                        <p>The perfect jazz / swing band for dances, parties, weddings, festivals and corporate events
+                        <p class="tagline">The perfect jazz / swing band for dances, parties, weddings, festivals and
+                            corporate events
                         </p>
+                        <hr class="dotted-line">
                         <br>
-                        <p>Get in touch:</p>
-                        <br>
-                        <p><i class="fa-solid fa-phone">
-                                <span class="sr-only">Phone Number</span>
-                            </i>
-                            0123456789</p>
-                        <p>
-                            <i class="fa-solid fa-envelope">
-                                <span class="sr-only">Email</span>
-                            </i> hotginswing@gmail.com
-                        </p>
-                        <p><a href="contact.html">
-                                <i class="fa-regular fa-rectangle-list" aria-hidden="true"></i> Contact Form
+                        <p class="invite">Get in touch:</p>
+                        <div class="homepage-contact">
+                            <p><i class="fa-solid fa-phone">
+                                    <span class="sr-only">Phone Number</span>
+                                </i>
+                                0123456789</p>
+                            <p>
+                                <i class="fa-solid fa-envelope">
+                                    <span class="sr-only">Email</span>
+                                </i> hotginswing@gmail.com
+                            </p>
+                            <p><a href="contact.html">
+                                    <i class="fa-regular fa-rectangle-list" aria-hidden="true"></i> Contact Form
 
-                            </a></p>
+                                </a></p>
+                        </div>
                     </section>
                 </div>
 

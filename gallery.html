@@ -38,14 +38,21 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="index.html">Home</a>
                     <a class="nav-item nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-                        aria-haspopup="true" aria-expanded="false" href="about.html">About</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="about.html">About us</a>
-                        <a class="dropdown-item" href="about.html#faq-section">FAQs</a>
+                        aria-haspopup="true" aria-expanded="false" data-reference="parent" href="about.html">About</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about.html">About us</a>
+                            <a class="dropdown-item" href="about.html#faq-section">FAQs</a>
+                        </div>
+                    <a class="nav-item nav-link active" href="gallery.html">Gallery <span class="sr-only">(current)</span></a>
                     </div>
-                    <a class="nav-item nav-link active" href="gallery.html">Gallery<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="music.html">Music</a>
+                    <div class="navbar-nav">
+                    <a class="nav-item nav-link dropdown-toggle" id="music-dropdown" data-toggle="dropdown"
+                        role="button" aria-haspopup="true" aria-expanded="false" data-reference="parent"
+                        href="music.html">Music </a>
+                    <div class="dropdown-menu" aria-labelledby="music-dropdown">
+                        <a class="dropdown-item" href="music.html">Media</a>
+                        <a class="dropdown-item" href="music.html#repertoire-section">Repertoire</a>
+                    </div>
                     <a class="nav-item nav-link" href="testimonials.html">Testimonials</a>
                     <a class="nav-item nav-link" href="contact.html">Contact</a>
                     <a class="nav-item nav-link d-none d-lg-block" target="_blank"
