@@ -5,6 +5,7 @@ html {
 body {
     font-family: "Source Sans", sans-serif;
     height: 100%;
+    color: #f8f9fa
 }
 
 h1 {
@@ -22,7 +23,7 @@ h2 {
 /*  Colours taken from hero image
     Band name = #2E2422
     Link hover = #A43134 (164, 49, 52)
-    Off white background = #f8f9fa (248,249,250) */
+    Off white background and text = #f8f9fa (248,249,250) */
 
 /*----------------------------------------------------- Navbar */
 
@@ -183,10 +184,17 @@ a.nav-item.nav-link i {
 }
 
 .about-text-left,
-.faq-text,
-.about-text-right {
+.faq-text {
     margin: 50px 50px;
     padding: 20px;
+    color: #f8f9fa;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about-text-right {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: 50px 50px 20px 10px;
 }
 
 .about-text-left,
@@ -295,7 +303,25 @@ a.nav-item.nav-link i {
     width: 33%;
 }
 
+.media-testimonial {
+    margin: 50px 50px 20px 10px;
+    padding: 20px;
+    color: #f8f9fa;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
+a.inline-social-media {
+    color: #f8f9fa;
+}
+
+a.inline-social-media:hover {
+    color: #A43134;
+    text-decoration: none;
+}
+
+.repertoire-text p {
+    font-size: 18px;
+}
 /*--------------------------------------------------- Testimonials page */
 
 .container-fluid.testimonials-background {
@@ -317,7 +343,32 @@ a.nav-item.nav-link i {
     margin: 50px 50px;
     padding: 20px;
     color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+p.testimonial {
+    font-family: "Raleway", sans-serif;
+    color: color: #f8f9fa;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p.testimonial-name {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.festival-links {
+    padding: 20px 50px;
+}
+
+.festival-link-col {
+    padding: 0 30px;
 }
 
 /*--------------------------------------------------- Contact */
