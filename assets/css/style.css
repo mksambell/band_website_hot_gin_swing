@@ -462,6 +462,23 @@ input.submit-button:active {
     padding: 60px 0;
 }
 
+/*--------------------------------------------------- Privacy policy page*/
+
+.privacy-container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 66px;
+    padding: 50px 50px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
 /*--------------------------------------------------- Footer */
 
 .container-fluid.footer {
@@ -489,7 +506,7 @@ input.submit-button:active {
 
 .footer-contact-info h4,
 .footer-contact-info a h4,
-.footer-privacy,
+#privacy-link h4,
 .footer-copyright {
     font-size: 12px;
     color: #2E2422;
@@ -497,13 +514,15 @@ input.submit-button:active {
 
 .footer-contact-info a:hover,
 .footer-bandname a:hover,
-.footer-social-media a:hover {
+.footer-social-media a:hover,
+#privacy-link:hover {
     text-decoration: none;
 }
 
 #footer-form:hover,
 #footer-logo:hover,
-#footer-media-link:hover {
+#footer-media-link:hover,
+#privacy-link h4:hover {
     color: #A43134;
 }
 
