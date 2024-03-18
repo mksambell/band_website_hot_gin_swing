@@ -18,14 +18,14 @@ h2 {
 }
 
 
-/*----------------------------------------------------- Colours */
+/*--------------------------------------------------------------------- Colours */
 
 /*  Colours taken from hero image
     Band name = #2E2422
     Link hover = #A43134 (164, 49, 52)
     Off white background and text = #f8f9fa (248,249,250) */
 
-/*----------------------------------------------------- Navbar */
+/*--------------------------------------------------------------------- Navbar */
 
 .navbar-nav {
     position: relative;
@@ -71,38 +71,27 @@ a.nav-item.nav-link i {
     padding-top: 1px;
 }
 
-/*---------------------------------------------------- Homepage */
+/*------------------------------------------------------------------------ Homepage */
 
-#hero-image-container {
+.container-fluid.hero-background {
     position: relative;
+    margin-top: 82px;
     padding: 0;
-    margin-top: 66px;
     width: 100%;
-    min-height: 100vh;
+    height: auto;
     background-color: black;
-    background: url("../images/hero-singer.jpg") no-repeat top center fixed;
+    background: url("../images/hero-singer.jpg.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-}
-
-.opaque-layer {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .homepage-text {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 35%;
     margin: 50px 30px 0 0;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
 }
 
 .homepage-text,
@@ -116,14 +105,14 @@ a.nav-item.nav-link i {
 }
 
 .homepage-logo {
-    font-size: 2.2rem;
+    font-size: 180%;
+    text-align: center;
 }
 
 .tagline {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     font-weight: 300;
-    font-size: 1.2rem;
     text-align: justify;
 }
 
@@ -145,15 +134,14 @@ a.nav-item.nav-link i {
     border-top: 2px dotted #f8f9fa;
 }
 
-/*---------------------------------------------------- About page */
+/*--------------------------------------------------------------------- About page */
 
 .container-fluid.about-background {
     position: relative;
-    margin: 0 auto;
-    margin-top: 66px;
+    margin-top: 82px;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: black;
     background: url("../images/about-sax.jpg") no-repeat top center fixed;
     background-size: cover;
@@ -162,16 +150,22 @@ a.nav-item.nav-link i {
     -o-background-size: cover;
 }
 
+.opaque-layer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .about-background .opaque-layer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .container-fluid.faq-background {
     position: relative;
-    margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 110vh;
+    height: auto;
     background-color: black;
     background: url("../images/faq-bass.jpg") no-repeat top center fixed;
     background-size: cover;
@@ -182,12 +176,15 @@ a.nav-item.nav-link i {
 
 .faq-background .opaque-layer {
     background-color: rgba(0, 0, 0, 0.3);
-    overflow: hidden;
+}
+
+.about-text {
+    height: 100%;
 }
 
 .about-text-left,
 .faq-text {
-    margin: 50px 50px;
+    margin: 50px 20px 50px 50px;
     padding: 20px;
     color: #f8f9fa;
     background-color: rgba(0, 0, 0, 0.8);
@@ -196,7 +193,7 @@ a.nav-item.nav-link i {
 .about-text-right {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    margin: 50px 50px 20px 10px;
+    margin: 50px 50px -20px 0;
 }
 
 .about-text-left,
@@ -211,7 +208,7 @@ a.nav-item.nav-link i {
     color: #A43134;
 }
 
-.about-text-left .dotted-line, {
+.about-text-left .dotted-line {
     align: left;
     width: 33%;
 }
@@ -225,12 +222,12 @@ a.nav-item.nav-link i {
     font-weight: 200;
 }
 
-/*------------------------------------------------------ Gallery page */
+/*------------------------------------------------------------------- Gallery page */
 
 .container-fluid.gallery-background {
     position: relative;
     margin: 0 auto;
-    margin-top: 66px;
+    margin-top: 82px;
     padding: 0;
     width: 100%;
     height: auto;
@@ -251,21 +248,22 @@ a.nav-item.nav-link i {
     opacity: 1;
 }
 
-/*--------------------------------------------------- Music page */
+/*---------------------------------------------------------------------- Music page */
 
 .container-fluid.music-background {
     position: relative;
     margin: 0 auto;
-    margin-top: 66px;
+    margin-top: 82px;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: black;
     background: url("../images/media-piano.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    overflow: hidden;
 }
 
 .embed-responsive .embed-responsive-item,
@@ -273,7 +271,7 @@ a.nav-item.nav-link i {
 .embed-responsive iframe,
 .embed-responsive object,
 .embed-responsive video {
-    margin: 10px;
+    margin: .8rem;
     width: 90%;
     height: 90%;
 }
@@ -283,13 +281,14 @@ a.nav-item.nav-link i {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: black;
     background: url("../images/faq-bass.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    overflow: hidden;
 }
 
 .repertoire-text,
@@ -298,9 +297,10 @@ a.nav-item.nav-link i {
     background-color: rgba(0, 0, 0, 0.6);
     margin: 50px 50px;
     padding: 20px;
+    height: 100%;
 }
- 
-.video-links .dotted-line, {
+
+.video-links .dotted-line {
     align: left;
     width: 33%;
 }
@@ -322,14 +322,15 @@ a.inline-social-media:hover {
 }
 
 .repertoire-text p {
-    font-size: 18px;
+    font-size: 1.1rem;
 }
-/*--------------------------------------------------- Testimonials page */
+
+/*--------------------------------------------------------------------- Testimonials page */
 
 .container-fluid.testimonials-background {
     position: relative;
     margin: 0 auto;
-    margin-top: 66px;
+    margin-top: 82px;
     padding: 0;
     width: 100%;
     height: 100vh;
@@ -373,12 +374,12 @@ p.testimonial-name {
     padding: 0 30px;
 }
 
-/*--------------------------------------------------- Contact */
+/*------------------------------------------------------------------------ Contact */
 
 .container-fluid.contact-background {
     position: relative;
     margin: 0 auto;
-    margin-top: 66px;
+    margin-top: 82px;
     padding: 0;
     width: 100%;
     height: 100vh;
@@ -464,7 +465,7 @@ input.submit-button:active {
     padding: 60px 0;
 }
 
-/*--------------------------------------------------- Privacy policy page*/
+/*---------------------------------------------------------------------- Privacy policy page*/
 
 .privacy-container {
     position: relative;
@@ -481,10 +482,10 @@ input.submit-button:active {
 }
 
 
-/*--------------------------------------------------- Footer */
+/*------------------------------------------------------------------------ Footer */
 
 .container-fluid.footer {
-    padding: 20px 100px;
+    padding: 20px 100px 10px 100px;
     background-color: #f8f9fa;
 }
 
@@ -542,14 +543,36 @@ input.submit-button:active {
     padding-right: 15px;
 }
 
-/*------------------------------------------------------------------ Media Queries */
+/*-------------------------------------------------------------------------- Media Queries */
 
-/* -------------------------------------------------- Mobile - Nav and Footer */
+/*------------------------------------------------------------------------- Tablet (<768px) */
+
+@media screen and (max-width: 768px) {
+
+    /*-------------------------------------------------- Tablet - About */
+
+    .about-text-left,
+    .faq-text {
+        margin: 30px 20px;
+        padding: 20px;
+    }
+
+    .about-text-right {
+        margin: 0 20px 10px 20px;
+    }
+
+    /*-------------------------------------------------- Tablet - Contact */
+
+}
+
+/* --------------------------------------------------------------------- Mobile (<576px) */
+
+/* ---------------------------------------------------Mobile - Nav and Footer */
 
 @media screen and (max-width: 576px) {
 
     .navbar a.navbar-brand h1 {
-        font-size: 150%;
+        font-size: 160%;
     }
 
     .footer-right {
@@ -570,53 +593,26 @@ input.submit-button:active {
 
     /* ------------------------------------------------- Mobile - Home */
 
-    .homepage-text {
-        width: 90%;
-        margin-top: 40px;
-        /* right: auto;
-        left: auto; */
-        
-    }
-
-    .homepage-contact {
-        padding-left: 0;
-        font-size: 1rem;
-        font-weight: 300;
-        letter-spacing: .1rem;
-    }
-
-    .homepage-logo {
-        font-size: 1.8rem;
+     .homepage-text {
+        margin: 0 auto;
+        margin-top: 50px;
+        left: 0;
     }
 
     /* ------------------------------------------------- Mobile - About */
 
 
-}
-
-
-/*--------------------------------------------------- Tablet - Nav and Footer */
-
-@media screen and (max-width: 768px) {
-
-   /*--------------------------------------------------- Media Queries - Tablet - Home */ 
-
-   .homepage-logo {
-    font-size: 1.8rem;
-}
-
-    .tagline {
-        text-align: left;
+    .about-text-right,
+    .about-text-left,
+    .faq-text {
+        margin: 20px;
     }
 
-    .homepage-text {
-        width: 45%;
-        margin: 50px 30px 0 0;
-        padding: 20px;
-
+    .about-text-right {
+        margin-top: 0;
+    }
 
 }
-
 
 
 
