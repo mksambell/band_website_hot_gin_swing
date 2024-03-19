@@ -13,13 +13,19 @@ Welcome to the site! [**Hot Gin Swing**](https://mksambell.github.io/band_websit
     - [Site Structure](#site-structure)
     - [Wireframes](#wireframes)
     - [Surface](#surface)
-2. [Features](#2-features)
-3. [Technology used](#3-technology-used)
-4. [Testing](#4-testing)
+2. [**Features**](#2-features)
+	- [Existing Features](#existing-features)
+		- [Home](#existing-features)
+			- [Navigation bar](#navigation-bar)
+			- [Hero image](#hero-image)
+			- [Footer](#footer)
+	- [Future Features](#future-features)
+3. [**Technology used**](#3-technology-used)
+4. [**Testing**](#4-testing)
 	- [Bugs](#bugs)
-5. [Deployment]
-6. [Credits](#5-credits)
-7. [Acknowledgements]
+5. [**Deployment**](#5-deployment)
+6. [**Credits**](#6-credits)
+7. [**Acknowledgements**](#7-acknowledgements)
 
 # 1. User Experience UX
 
@@ -57,7 +63,6 @@ As a potential client, I want:
 
 [Back to top](#contents)
 
----
 
 ## Site Structure
 
@@ -96,7 +101,7 @@ Notes:
 
 [Back to top](#contents)
 
----
+
 ## Wireframes
 
 The following wireframes were created in [Balsamiq](https://balsamiq.com/) and include responsive design ideas for Laptop, Tablet and Mobile devices. The final design differs from the wireframes due to changes made in the design process. For example, the contact form does not appear at the bottom of every page. It was felt that there was sufficient access to it through the home page, navbar and footer and that it would be unnecessary and annoying to the user.
@@ -117,7 +122,7 @@ The following wireframes were created in [Balsamiq](https://balsamiq.com/) and i
 ![Contact](assets/wireframes/contact.png "Opens Contact page wireframe as png")
 [Back to top](#contents)
 
----
+
 ## Design choices
 
 **Typography**
@@ -163,83 +168,116 @@ The colour scheme was chosen to reflect the formal wear the band plays in (DJs, 
 - Size and resolution of images have been adjusted to ensure that they load as quickly as possible to maximise the user experience. 
 
 [Back to top](#contents)
----
+
+
 ## 2. Features
 
 The site is intended to be easy to navigate around and intuitive to use. Common pages, terminology and icons are used to help the user find their way around easily, and high contrast between font and background has been used to make the text immediately clear.
 
 ## Existing Features
 
-- Navigation Bar
-	- The navbar is fixed at the top of the screen so that at any point, a user can navigate to any of the main pages. 
-	- The name/logo of the band is fixed in the left of the navbar and is a link to the home page
-	- The dropdown menus for the About and Music pages provide links to the FAQ and Repertoire sections respectively
-	- Active links are shown in bold to show the user where they are in the site.
-	- Links turn red when hovered over as shown in the pictures below.
-	- On mobile and tablet devices, the nav menu appears as a list icon. The default Bootstrap has been replaced with a more elegant icon from FontAwesome.
-	- The social media links only appear in the navbar at laptop size; they are hidden in mobile and tablet version to avoid cluttering the interface. The same links are permanently in the footer.
+### Navigation Bar
+- The navbar is fixed at the top of every page so that at any point, a user can navigate to any other main page. 
+- The name/logo of the band is fixed in the left of the navbar and is a link to the home page
+- The dropdown menus for the About and Music pages provide links to the FAQ and Repertoire sections respectively
+- Active links are shown in bold to show the user where they are in the site.
+- Links turn red when hovered over as shown in the pictures below.
+- On mobile and tablet devices, the nav menu appears as a list icon. The default Bootstrap has been replaced with a more elegant icon from FontAwesome.
+- The social media links only appear in the navbar at laptop size; they are hidden in mobile and tablet version to avoid cluttering the interface. The same links are permanently in the footer.
+
+*Navbar expanded*
 
 ![Navbar Laptop](/assets/readme-images/navbar.jpg)
-
+*Navbar collapsed (logo with hover colour activated)*
 
 ![Navbar Collapsed](/assets/readme-images/navbar-small.jpg)
 
+[Back to top](#contents)
+
+### Hero Image 
+- A full screen picture of the band's lead singer in full swing greets the user on the landing page.
+- A fully responsive text box gives a brief description of the band, and key contact info.
+- The contact form link takes users to the Contact page.
+- At all viewport sizes, the singer's face (and energy) remains central, the text box positioned either along the right or bottom edge.
+
+*Hero image on laptop*
+
+![Hero image laptop](/assets/readme-images/hero-lg.jpg)
+
+*Hero image on mobile*
+
+![Hero image mobile](/assets/readme-images/hero-sm.jpg)
 
 [Back to top](#contents)
 
-- Footer
+### Footer
+- Sited at the bottom of every page (discovered by scrolling), the footer contains the logo, which acts as a link to the home page, contact information, links to social media, link to privacy page, and copyright information.
+- To enhance the UX, as with the navbar, all the links show red when the pointer hovers over them.
+- Social media links open their targets in a new tab, so that users can retain their location on the site.
+- The privacy policy page contains the same navbar and footer, so users can easily navigate back onto the main pages of the site.
+- The contact form link takes users to the Contact page.
+- The footer information stacks for mobile users, as in the image below.
+
+*Footer tablet*
+
+![Footer-laptop](/assets/readme-images/footer-md.jpg)
+
+*Footer mobile*
+
+![Footer-laptop](/assets/readme-images/footer-xs.jpg)
 
 [Back to top](#contents)
 
-- About us
+
+**About us**
+
 
 [Back to top](#contents)
 
-- FAQ
+**FAQ**
 
 [Back to top](#contents)
 
-- Gallery
+**Gallery**
 
 [Back to top](#contents)
 
-- Media
+**Media**
 
 [Back to top](#contents)
 
-- Repertoire
+**Repertoire**
 
 [Back to top](#contents)
 
-- Testimonials
+**Testimonials**
 
 [Back to top](#contents)
 
-- Contact
+**Contact**
 
 [Back to top](#contents)
 
-- Contact receipt
+**Contact receipt**
 
 [Back to top](#contents)
 
-- Privacy policy
+**Privacy policy**
 
 [Back to top](#contents)
 
-**Layout**
-
-- The navbar will be fixed at the top of the screen so that at any point, a user can navigate to any of the main pages. (On mobile, the nav menu will appear as a list icon).
-- The logo and name of the band will be fixed in the left of the navbar.
 
 ### Future features
 
-- Link contact form to backend server
-- Link to a wider range of media, including audio clips
+- Connect contact form to a server to operate functionally
+	- This would include replacing the boilerplate privacy policy with a more detailed one.
+- Link to a selection of studio-recorded audio clips
+	- This could potentially include a download/purchase option for some of the band's recordings
 - An upcoming gigs section
 - A link to download a promotional pack, including logo, photos, etc that clients could use to promote their event.
 
----
+
+
 ## 3. Technology used
 
 - The wireframes were created using [Balsamiq](https://balsamiq.com/)
@@ -250,28 +288,26 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 - [Github](https://github.com/) was used for version control and for hosting
 - Images were resized and edited using [TinyJPG](https://tinyjpg.com/) and [RedKetchup](https://redketchup.io/image-resizer)
 
----
+
 ## 4. Testing
 
-### User stories
+For full testing details, including code validation, bugs, user story tests and developer tools tests, please see the separate [Testing](/TESTING.md) document.
 
 
-
-### Bugs
-
-- About page - containers not adjusting height dynamically when resizing viewport
-- - found thread on Stackoverflow explaining that body tag needed to be at 100%
-
----
 ## 5. Deployment
 
----
+### To deploy the project on Github Pages
+
+  1. In the GitHub repository, navigate to the **Settings** tab.
+  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
+  3. Under **Source**, select the branch to **master**, then click **save**.
+  4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 ## 6. Credits
 
 ### Code
 
 - Navbar code copied from [Boostrap](https://getbootstrap.com/docs/4.2/components/navbar/#placement) and edited and styled
-
 - Embed code copied from [Youtube](https://www.youtube.com/watch?v=-6qFbtDSqgM)
 
 ### Content

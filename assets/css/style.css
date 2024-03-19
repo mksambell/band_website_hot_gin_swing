@@ -523,12 +523,14 @@ input.submit-button:active {
 
 #footer-form:hover,
 #footer-logo:hover,
-#footer-media-link:hover,
+#footer-facebook-link:hover,
+#footer-youtube-link:hover,
 #privacy-link h4:hover {
     color: #A43134;
 }
 
-#footer-media-link {
+#footer-facebook-link,
+#footer-youtube-link {
     color: #2E2422;
     font-size: 150%;
 }
