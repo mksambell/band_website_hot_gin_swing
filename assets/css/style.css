@@ -74,13 +74,12 @@ a.nav-item.nav-link i {
 /*------------------------------------------------------------------------ Homepage */
 
 .container-fluid.hero-background {
-    position: relative;
     margin-top: 82px;
     padding: 0;
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/hero-singer.jpg.jpg") no-repeat top center fixed;
+    background: url("../images/hero-singer.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -89,7 +88,7 @@ a.nav-item.nav-link i {
 }
 
 .homepage-text {
-    margin: 50px 30px 0 0;
+    margin: 5vh 5vh 50vh 0;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -125,7 +124,7 @@ a.nav-item.nav-link i {
 
 .homepage-contact {
     padding-left: 20px;
-    font-size: 1rem;
+    font-size: 100%;
     font-weight: 300;
     letter-spacing: .1rem;
 }
@@ -249,8 +248,6 @@ a.nav-item.nav-link i {
 /*---------------------------------------------------------------------- Music page */
 
 .container-fluid.music-background {
-    position: relative;
-    margin: 0 auto;
     margin-top: 82px;
     padding: 0;
     width: 100%;
@@ -264,19 +261,21 @@ a.nav-item.nav-link i {
     overflow: hidden;
 }
 
+.music-background .opaque-layer {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .embed-responsive .embed-responsive-item,
 .embed-responsive embed,
 .embed-responsive iframe,
 .embed-responsive object,
 .embed-responsive video {
-    margin: .8rem;
     width: 90%;
+    margin-left: 5%;
     height: 90%;
 }
-
+    
 .container-fluid.repertoire-background {
-    position: relative;
-    margin: 0 auto;
     padding: 0;
     width: 100%;
     height: auto;
@@ -293,9 +292,8 @@ a.nav-item.nav-link i {
 .video-links {
     color: #f8f9fa;
     background-color: rgba(0, 0, 0, 0.6);
-    margin: 50px 50px;
+    margin: 50px 20px 50px 50px;
     padding: 20px;
-    height: 100%;
 }
 
 .video-links .dotted-line {
@@ -304,7 +302,7 @@ a.nav-item.nav-link i {
 }
 
 .media-testimonial {
-    margin: 50px 50px 20px 10px;
+    margin: 50px 50px -20px 20px;
     padding: 20px;
     color: #f8f9fa;
     background-color: rgba(0, 0, 0, 0.6);
@@ -326,22 +324,21 @@ a.inline-social-media:hover {
 /*--------------------------------------------------------------------- Testimonials page */
 
 .container-fluid.testimonials-background {
-    position: relative;
-    margin: 0 auto;
     margin-top: 82px;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: black;
     background: url("../images/testimonials-stage.jpg") no-repeat top center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    overflow: hidden;
 }
 
 .testimonials-text {
-    margin: 50px 50px;
+    margin: 50px 50px 20px 50px;
     padding: 20px;
     color: #f8f9fa;
     background-color: rgba(0, 0, 0, 0.6);
@@ -351,7 +348,7 @@ p.testimonial {
     font-family: "Raleway", sans-serif;
     color: color: #f8f9fa;
     font-style: italic;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 0;
@@ -543,34 +540,45 @@ input.submit-button:active {
     padding-right: 15px;
 }
 
-/*-------------------------------------------------------------------------- Media Queries */
+/*------------------------------------------------------------------------ Media Queries */
 
-/*------------------------------------------------------------------------- Tablet (>768px) */
+@media screen and (max-width: 992px) {
+
+    .homepage-text {
+        margin: 50vh 2vh 5vh 0;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
-    /*-------------------------------------------------- Tablet - About */
+    .homepage-text {
+        font-size: 90%;
+        margin: 50vh 2vh 2vh 5vh;
+    }
 
     .about-text-left,
     .faq-text {
         margin: 30px 20px;
-        padding: 20px;
     }
 
     .about-text-right {
-        margin: 0 20px 10px 20px;
+        margin: 30px 20px 10px 20px;
     }
 
-    /*-------------------------------------------------- Tablet - Contact */
+    .repertoire-text,
+    .video-links {
+        margin: 30px 20px;
+    }
+
+    .media-testimonial {
+        margin: 30px 20px 10px 20px;
+    }
 
     .form-section {
         margin: 50px 10px;
     }
 }
 
-/* --------------------------------------------------------------------- Mobile (>576px) */
-
-/* ---------------------------------------------------Mobile - Nav and Footer */
 
 @media screen and (max-width: 576px) {
 
@@ -595,16 +603,9 @@ input.submit-button:active {
         padding-top: .5rem;
     }
 
-    /* ------------------------------------------------- Mobile - Home */
-
-     .homepage-text {
-        margin: 0 auto;
-        margin-top: 50px;
-        left: 0;
+    .homepage-text {
+        margin: 50vh 2vh 2vh 2vh;
     }
-
-    /* ------------------------------------------------- Mobile - About */
-
 
     .about-text-right,
     .about-text-left,
@@ -616,6 +617,14 @@ input.submit-button:active {
         margin-top: 0;
     }
 
+    .repertoire-text,
+    .video-links {
+        margin: 20px;
+    }
+
+    .media-testimonial {
+        margin-top: 0;
+    }
 }
 
 
@@ -625,6 +634,3 @@ input.submit-button:active {
 /* Tablet */
 /* reduce video padding */
 /* reduce spacing between navlinks */
-
-/* Mobile */
-/* reduce size of main logo and burger icon to accommodate inline */
