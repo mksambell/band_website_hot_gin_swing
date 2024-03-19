@@ -21,8 +21,10 @@ h2 {
 /*--------------------------------------------------------------------- Colours */
 
 /*  Colours taken from hero image
+
     Band name = #2E2422
     Links hover with white background = #A43134 (164, 49, 52)
+    Links hover and subheadings against black background = #FF6250
     Red against black = #FF6250
     Off white background and text = #f8f9fa (248,249,250) */
 
@@ -82,9 +84,6 @@ a.nav-item.nav-link i {
     background-color: black;
     background: url("../images/hero-singer.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     overflow: hidden;
 }
 
@@ -145,9 +144,6 @@ a.nav-item.nav-link i {
     background-color: black;
     background: url("../images/about-sax.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .opaque-layer {
@@ -169,9 +165,6 @@ a.nav-item.nav-link i {
     background-color: black;
     background: url("../images/faq-bass.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .faq-background .opaque-layer {
@@ -193,7 +186,7 @@ a.nav-item.nav-link i {
 .about-text-right {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
-    margin: 50px 50px -20px 0;
+    margin: 50px 50px 50px 0;
 }
 
 .about-text-left,
@@ -206,11 +199,6 @@ a.nav-item.nav-link i {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     color: #FF6250;
-}
-
-.about-text-left .dotted-line {
-    align: left;
-    width: 33%;
 }
 
 .faq-text h5 {
@@ -231,9 +219,6 @@ a.nav-item.nav-link i {
     height: auto;
     background-color: black;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 #photo-gallery img {
@@ -256,14 +241,7 @@ a.nav-item.nav-link i {
     background-color: black;
     background: url("../images/media-piano.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     overflow: hidden;
-}
-
-.music-background .opaque-layer {
-    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .embed-responsive .embed-responsive-item,
@@ -283,30 +261,28 @@ a.nav-item.nav-link i {
     background-color: black;
     background: url("../images/faq-bass.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     overflow: hidden;
 }
 
-.repertoire-text,
+.repertoire-text {
+    color: #f8f9fa;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 50px 50px 20px 50px;
+    padding: 20px;
+}
+
 .video-links {
     color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
     margin: 50px 20px 50px 50px;
     padding: 20px;
 }
 
-.video-links .dotted-line {
-    align: left;
-    width: 33%;
-}
-
 .media-testimonial {
-    margin: 50px 50px -20px 20px;
+    margin: 50px 50px 50px 0;
     padding: 20px;
     color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 a.inline-social-media {
@@ -314,12 +290,26 @@ a.inline-social-media {
 }
 
 a.inline-social-media:hover {
-    color: #A43134;
+    color: #FF6250;
     text-decoration: none;
 }
 
 .repertoire-text p {
     font-size: 1.1rem;
+}
+
+.repertoire-text mark {
+    background-color: transparent;
+    color: #FF6250;
+}
+
+.repertoire-text a {
+    color: #f8f9fa
+}
+
+.repertoire-text a:hover {
+    color: #FF6250;
+    text-decoration: none;
 }
 
 /*--------------------------------------------------------------------- Testimonials page */
@@ -332,9 +322,6 @@ a.inline-social-media:hover {
     background-color: black;
     background: url("../images/testimonials-stage.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     overflow: hidden;
 }
 
@@ -347,7 +334,7 @@ a.inline-social-media:hover {
 
 p.testimonial {
     font-family: "Raleway", sans-serif;
-    color: color: #f8f9fa;
+    color: #f8f9fa;
     font-style: italic;
     font-size: 1.1rem;
     font-weight: 600;
@@ -382,9 +369,6 @@ p.testimonial-name {
     background-color: black;
     background: url("../images/about-dancers.jpg") no-repeat top center fixed;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .form-section {
@@ -438,7 +422,6 @@ input.submit-button {
     margin-top: 5px;
     padding: 3px 5px;
     border-radius: 3px;
-    align: center;
     transition: 0.4s;
 }
 
@@ -474,9 +457,6 @@ input.submit-button:active {
     height: auto;
     background-color: black;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 
@@ -574,7 +554,7 @@ input.submit-button:active {
     }
 
     .media-testimonial {
-        margin: 30px 20px 10px 20px;
+        margin: 20px 20px 20px 20px;
     }
 
     .form-section {
@@ -629,11 +609,3 @@ input.submit-button:active {
         margin-top: 0;
     }
 }
-
-
-
-
-
-/* Tablet */
-/* reduce video padding */
-/* reduce spacing between navlinks */

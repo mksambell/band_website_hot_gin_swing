@@ -229,45 +229,45 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 [Back to top](#contents)
 
 
-**About us**
+### About us
 
 
 [Back to top](#contents)
 
-**FAQ**
+### FAQ
 
 [Back to top](#contents)
 
-**Gallery**
+### Gallery
 
 [Back to top](#contents)
 
-**Media**
+### Media
 
 [Back to top](#contents)
 
-**Repertoire**
+### Repertoire
 
 [Back to top](#contents)
 
-**Testimonials**
+### Testimonials
 
 [Back to top](#contents)
 
-**Contact**
+### Contact
 
 [Back to top](#contents)
 
-**Contact receipt**
+### Contact receipt
 
 [Back to top](#contents)
 
-**Privacy policy**
+### Privacy policy
 
 [Back to top](#contents)
 
 
-### Future features
+## Future features
 
 - Connect contact form to a server to operate functionally
 	- This would include replacing the boilerplate privacy policy with a more detailed one.

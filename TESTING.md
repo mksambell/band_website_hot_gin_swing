@@ -15,9 +15,13 @@
 
 ## Code validation
 
-The Hot Gin Swing site has been thoroughly tested. The HTML code for all pages has been validated by the W3C [W3C HTML Validator]. Some minor errors were identified and have been fixed and retested (see [Bugs: Resolved](#resolved)). All pages now display the following message:
+The Hot Gin Swing site has been thoroughly tested. The HTML code for all pages has been validated by the W3C [W3C HTML Validator](https://validator.w3.org/). Some minor errors were identified and have been fixed and retested (see [Bugs: Resolved](#resolved)). All pages now display the following message:
 
 ![html ok](/assets/readme-images/html-ok.jpg)
+
+The CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were found. The validator displays the following message:
+
+![css ok](/assets/readme-images/css-ok.jpg)
 
 [Back to top](#contents)
 
