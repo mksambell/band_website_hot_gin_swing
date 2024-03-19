@@ -195,6 +195,10 @@ a.nav-item.nav-link i {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.about-text-left a:hover {
+    color: #FF6250;
+}
+
 .welcome {
     font-family: "Raleway", sans-serif;
     font-size: 20px;

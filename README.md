@@ -94,13 +94,7 @@ The site is structured with six pages:
 - A contact form. When submitted a [enquiry receipt](contact-received.html) page displays
 - There is a link to a [privacy policy](privacy.html) in the footer
 
-Notes:
-- The band's name and logo will appear fixed in the top left of the navbar.
-- Social media links will appear in the navbar and in the footer.
-- Contact information and/or a contact form will also appear above the footer on every page to make this information easily accessible.
-
 [Back to top](#contents)
-
 
 ## Wireframes
 

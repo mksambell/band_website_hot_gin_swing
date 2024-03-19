@@ -27,7 +27,11 @@ The CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-va
 
 ## Navigation links
 
+The navbar links and social media links throughout the site have been thoroughly tested by the developer. All links work as intended, including hover colour changes. Social media links open in new tabs.
+
 ## Responsive test
+
+
 
 [Back to top](#contents)
 
