@@ -355,6 +355,7 @@ p.testimonial-name {
 
 .festival-links {
     padding: 20px 50px;
+    margin-bottom: 25vh;
 }
 
 .festival-link-col {
@@ -378,7 +379,8 @@ p.testimonial-name {
 .form-section {
     padding: 20px 20px;
     background-color: rgba(0, 0, 0, 0.85);
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-bottom: 30vh;
 }
 
 .form-section h2,
@@ -561,6 +563,10 @@ input.submit-button:active {
         margin: 20px 20px 20px 20px;
     }
 
+    .testimonials-text {
+        margin: 4vh 3vh 20vh 3vh; 
+    }
+
     .form-section {
         margin: 50px 10px;
     }
@@ -611,5 +617,9 @@ input.submit-button:active {
 
     .media-testimonial {
         margin-top: 0;
+    }
+
+    .testimonials-text {
+        margin: 4vh 2vh 2vh 2vh; 
     }
 }

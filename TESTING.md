@@ -6,7 +6,7 @@
 - [Navigation Links](#navigation-links)
 - [Responsive Test](#responsive-test)
 - [Browser Compatibility](#browser-compatibility)
-- [User stories](#user-stories)
+- [Testing user stories](#testing-user-stories)
 - [Bugs](#bugs)
     - [Resolved](#resolved)
     - [Unresolved](#unresolved)
@@ -27,19 +27,84 @@ The CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-va
 
 ## Navigation links
 
-The navbar links and social media links throughout the site have been thoroughly tested by the developer. All links work as intended, including hover colour changes. Social media links open in new tabs.
+The navbar links and social media links throughout the site have been manually tested by the developer. All links work as intended, including hover colour changes. Social media links open in new tabs.
 
 ## Responsive test
 
+The responsiveness of the site was tested using [Google Chrome DevTools](https://developer.chrome.com/docs/devtools).
+
+| iPhone XR  | Galaxy TabS4 | iPhone 14 Pro | iPad Air | iPad Pro | Display <1200px | Display >1200px |
+|------------|--------------|---------------|----------|----------|-----------------|-----------------|
+| pass       | pass         | pass          | pass     | pass     | pass            | pass            |
+
+
+Pages displayed as expected at the breakpoints indicated in the CSS stylesheet.
 
 
 [Back to top](#contents)
 
 ## Browser compatibility
 
+The site was tested manually in the following broswers:
+- Google Chrome
+- Microsoft Edge
+- Safari
+- Mozilla Firefox
+
+The site functioned as expected on all browsers, in a range of device sizes; functionality, responsiveness and appearance worked as expected.
+
 [Back to top](#contents)
 
-## User stories
+## Testing user stories
+
+1. To find out basic information about the band
+    - On the About page there is a brief description of the band, including an invitation and link to the band's facebook page.
+    - Links to facebook and youtube are located on navbar, footer and in the About and Music pages.
+    - Invitations and links to contact details and form are located in the footer and on Home, About and Music pages.
+
+2. To hear/watch examples of the band's performances
+    - Links to Youtube clips are included on the Music page.
+    - Links to facebook and youtube are located on navbar, footer and in the About and Music pages. Users are invited to explore these sites for more examples on the About and Music pages.
+
+3. To find out about the range of musical services they offer
+    - The About text describes the types of event the band play for.
+    - The Repertoire section on the Music page describes the songs and styles of music the band performs.
+
+4. To read testimonials about the band's performances from other clients
+    - The Testimonials page contains a selection of brief client reviews.
+    - The About and Music pages also contain a brief testimonial as a sidebar
+
+5. To be able to get in touch easily to make an enquiry
+    - Contact information is displayed prominently on the landing page, including a link to the enquiry form on the contact page
+    - The footer contains the same contact details
+    - An additional inline link to the contact page is included on the Repertoire section
+
+6. To see images of the band's appearance
+    - The gallery page contains a range of pictures of the band in performance at various venues and events
+    - The background images used on Home and Testimonials page are also shots of the band in action
+    - There are additional pictures shown on the About and Music pages as sidebars
+
+7. To know that the band will be friendly and easy to deal with
+    - The tone used throughout is intended to be friendly and welcoming.
+    - The FAQ section aims to anticipate user questions and invites further contact for a friendly chat
+    - The images used show the band smiling and enjoying performing
+    - The straightforward structure and functionality of the site emphasises ease of use/access for the user
+
+8. To find out about the band's repertoire and the styles of music they perform
+    - The Repertoire section details the songs and styles the band commonly performs
+    - The videos used are compilations of previous performances and show a range of songs and styles.
+
+9. To find my way easily around the site
+    - The navigation menu is fixed at the top of the screen
+    - Active pages are highlighted in bold in the navigation menu
+    - Links change to red when hovered over
+    - Site structure is uncomplicated - all pages are accessible directly from the Home page
+    - Social media links open in new tabs, retaining the user's presence on the Hot Gin Swing site
+
+10. To know how to connect with the band on social media
+    - Social media links are located in the Navigation menu at laptop screen size and above, and in the footer at all sizes
+    - The About page has a link to the band's facebook page
+    - The Music page has a link to the band's Youtube channel
 
 [Back to top](#contents)
 
@@ -70,4 +135,4 @@ During validation, two minor errors were identified:
 
 [Back to top](#contents)
 
-### Accessibility?
+[Return to Readme](/README.md#4-testing)
