@@ -44,7 +44,7 @@ Users may access the website for a number of reasons. They could be:
 - an event organiser browsing/searching for musical acts in their region
 - a casual visitor, or someone who has heard the band at a performance and wants to find out more
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 ## User stories
 
@@ -61,7 +61,7 @@ As a potential client, I want:
 10. To know how to connect with the band on social media
 
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 
 ## Site Structure
@@ -94,7 +94,7 @@ The site is structured with six pages:
 - A contact form. When submitted a [enquiry receipt](contact-received.html) page displays
 - There is a link to a [privacy policy](privacy.html) in the footer
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 ## Wireframes
 
@@ -104,17 +104,18 @@ The following wireframes were created in [Balsamiq](https://balsamiq.com/) and i
 ![Home](assets/wireframes/home.png "Opens Home page wireframe as png")  
 ### About
 ![About](assets/wireframes/about.png "Opens About page wireframe as png")
-[Back to top](#contents)
+[Back to contents](#contents)
 ### Gallery
 ![Gallery](assets/wireframes/gallery.png "Opens Gallery page wireframe as png")
 ### Music
 ![Music](assets/wireframes/music.png "Opens Our Music page wireframe as png")
-[Back to top](#contents)
+[Back to contents](#contents)
 ### Testimonials
 ![Testimonials](assets/wireframes/testimonials.png "Opens Testimonials page wireframe as png")  
 ### Contact
 ![Contact](assets/wireframes/contact.png "Opens Contact page wireframe as png")
-[Back to top](#contents)
+
+[Back to contents](#contents)
 
 
 ## Design choices
@@ -140,7 +141,7 @@ A handful of [FontAwesome](https://fontawesome.com/) icons are used to draw atte
 - Checkist (for contact form)
 - List (to replace default navbar toggler)
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 **Colours**
 
@@ -161,7 +162,7 @@ The colour scheme was chosen to reflect the formal wear the band plays in (DJs, 
 - Background images that are too bright are overlayed with an opaque layer to ensure the text is clear.
 - Size and resolution of images have been adjusted to ensure that they load as quickly as possible to maximise the user experience. 
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 
 ## 2. Features
@@ -186,7 +187,7 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 
 ![Navbar Collapsed](/assets/readme-images/navbar-small.jpg)
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 ### Hero Image 
 - A full screen picture of the band's lead singer in full swing greets the user on the landing page.
@@ -194,15 +195,11 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 - The contact form link takes users to the Contact page.
 - At all viewport sizes, the singer's face (and energy) remains central, the text box positioned either along the right or bottom edge.
 
-*Hero image on laptop*
+*Hero image on laptop and mobile*
 
-![Hero image laptop](/assets/readme-images/hero-lg.jpg)
+![Hero image laptop](/assets/readme-images/hero-lg-and-sm.jpg)
 
-*Hero image on mobile*
-
-![Hero image mobile](/assets/readme-images/hero-sm.jpg)
-
-[Back to top](#contents)
+[Back to contents](#contents)
 
 ### Footer
 - Sited at the bottom of every page (discovered by scrolling), the footer contains the logo, which acts as a link to the home page, contact information, links to social media, link to privacy page, and copyright information.
@@ -210,56 +207,99 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 - Social media links open their targets in a new tab, so that users can retain their location on the site.
 - The privacy policy page contains the same navbar and footer, so users can easily navigate back onto the main pages of the site.
 - The contact form link takes users to the Contact page.
-- The footer information stacks for mobile users, as in the image below.
+- The footer information stacks for mobile users.
 
-*Footer tablet*
+*Footer - tablet size and larger*
 
 ![Footer-laptop](/assets/readme-images/footer-md.jpg)
 
-*Footer mobile*
-
-![Footer-laptop](/assets/readme-images/footer-xs.jpg)
-
-[Back to top](#contents)
+[Back to contents](#contents)
 
 
 ### About us
+- The About page lets the user know who the band is and what they do.
+- The picture of a relaxed, smiling, smartly dressed band gives the user confidence that they are dealing with a professional and friendly group.
+- An inline link and invitation in the text to the band's Facebook encourages the user to find out more about the band.
 
+![About-laptop](/assets/readme-images/about-page.jpg)
 
+[Back to contents](#contents)
 
-[Back to top](#contents)
+### FAQs
+- This section sits underneath the 'About us' section on the About page.
+- It offers users further information about what the band can offer, and what clients can expect when dealing with the band.
+- The question and answer format breaks up the text, making it more accesible - the contrast in colour also helps the user navigate through this section.
+- There is an invitation and signpost to use the contact form to make a further enquiry.
 
-### FAQ
+![FAQ-laptop](/assets/readme-images/faq-section.jpg)
 
-[Back to top](#contents)
+[Back to contents](#contents)
 
 ### Gallery
+- The gallery shows the user a range of pictures of the band in action in various venues and events.
+- The images have been edited to mute the colours and saturation slightly, to give a vintage feel, to suit the vibe of the band.
+- The opacity of each picture increases as the mouse hovers over it; this offers a little interactivity for the user.
 
-[Back to top](#contents)
+![Gallery-laptop](/assets/readme-images/gallery-page.jpg)
+
+[Back to contents](#contents)
 
 ### Media
+- The Music page contains two sections - Media and Repertoire
+- Media contains embedded videos showing examples of the band's performances
+- The videos are embedded from the band's Youtube channel, offering the user chance to explore more.
+- The videos have the capacity to be made fullscreen, enhancing the user experience.
 
-[Back to top](#contents)
+![Media-laptop](/assets/readme-images/media-section.jpg)
+
+[Back to contents](#contents)
 
 ### Repertoire
+- This section gives more specific information about the songs and style of music the band plays.
+- A broad list of songs and covered artists gives the user better chance to engage.
+- An inline invitation to use the contact form for a friendly discussion further encourages the user to engage directly with the band.
 
-[Back to top](#contents)
+![Repertoire-laptop](/assets/readme-images/repertoire-section.jpg)
+
+[Back to contents](#contents)
 
 ### Testimonials
+- A selection of brief testimonials is given to further encourage the user that the band is trustworthy, friendly to deal with and can perform to a high standard.
+- The testimonial text is italicised to personalise and separate it from the rest of the site's text.
+- Three links to festivals and venues that the band have previously played at are included below the testimonials, though only on laptop screens and larger. These indicate that the band have performed professionally for national public events, and also emphasise the band's vibe.
 
-[Back to top](#contents)
+![Testimonials-laptop](/assets/readme-images/testimonials-page.jpg)
+
+[Back to contents](#contents)
 
 ### Contact
+- The contact form is the last page indicated on the navigation menu and is signposted throughout the site as the next step for the user's interaction with the site. It therefore acts as a kind of end point of the user's journey.
+- Phone and email information is given, in case the user decides at this stage that they would prefer to use these contact methods.
+- To enhance user experience, the only fields required are name and email, and the formatting of date and type of event is left to the user to decide. The band do not need to collate this data into a database, so formatting is not critical. It is more important that the user is encouraged to get in touch with the band.
+- The checklist options about band size are not required - they are intended as a guide to the user's thinking. There is an option for the user to ask for further advice.
+- To enhance UX, the colours of the 'send enquiry' button reverse when the mouse hovers over it.
 
-[Back to top](#contents)
+![Contact-laptop](/assets/readme-images/contact-page.jpg)
+
+[Back to contents](#contents)
 
 ### Contact receipt
+- This is the page that will display when a user submits an enquiry.
+- The message maintains the friendly and helpful tone, further enhancing the UX.
+- The page displays with navbar and footer so that the user can easily navigate back to any page on the site.
 
-[Back to top](#contents)
+![Contact-receipt-laptop](/assets/readme-images/contact-receipt.jpg)
+
+[Back to contents](#contents)
 
 ### Privacy policy
+- This page is accessed through the footer, which is present on every page.
+- It offers users confidence that any information they give to the band through the contact form, or through other means of contact, will be handled securely, and that it is gathered solely for the purpose of being able to offer their services to the user.
+- The page displays with navbar and footer so that the user can easily navigate back to any page on the site.
 
-[Back to top](#contents)
+![Privacy-laptop](/assets/readme-images/privacy-page.jpg)
+
+[Back to contents](#contents)
 
 
 ## Future features
@@ -270,8 +310,9 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 	- This could potentially include a download/purchase option for some of the band's recordings
 - An upcoming gigs section
 - A link to download a promotional pack, including logo, photos, etc that clients could use to promote their event.
+- The email address given is real; the phone number will need to be replaced.
 
-
+[Back to contents](#contents)
 
 ## 3. Technology used
 
@@ -281,8 +322,10 @@ The site is intended to be easy to navigate around and intuitive to use. Common 
 - [Bootstrap 4.2](https://getbootstrap.com/docs/4.2/layout/grid/) was used to create the grid system and provide some styling
 - The site was developed in [Gitpod](https://www.gitpod.io/) using a Github template from [Code Institute](https://github.com/Code-Institute-Org/ci-full-template)
 - [Github](https://github.com/) was used for version control and for hosting
+- [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools) were used throughout development and for testing
 - Images were resized and edited using [TinyJPG](https://tinyjpg.com/) and [RedKetchup](https://redketchup.io/image-resizer)
 
+[Back to contents](#contents)
 
 ## 4. Testing
 
@@ -293,17 +336,44 @@ For full testing details, including code validation, bugs, user story tests and 
 
 ### To deploy the project on Github Pages
 
-  1. In the GitHub repository, navigate to the **Settings** tab.
-  2. Once in Settings, navigate to the **Pages** tab on the left hand side.
-  3. Under **Source**, select the branch to **master**, then click **save**.
+  1. In the GitHub repository, go to Settings.
+  2. In Settings, navigate to the Pages tab on the left hand side.
+  3. Under Source, select the branch to master, then click save.
   4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  ![Github deploy](/assets/readme-images/github-deploy.jpg)
+
+  The live link to the repository can be found [here](https://github.com/mksambell/band_website_hot_gin_swing)
+
+
+  ### To fork the repository on Github
+
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository:
+
+1. Log in to GitHub and locate the repository.
+2. On the right hand side of the page inline with the repository name is a button called 'Fork'. Click on the button to create a copy of the original repository in your GitHub Account.
+
+![Github fork](/assets/readme-images/github-fork.jpg)
+
+### To clone the project
+
+1. Under the repository’s name, click on the code tab.
+2. In the 'Clone with HTTPS' section, click on the clipboard icon to copy the given URL.
+3. In your IDE, open Git Bash.
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type 'git clone', and then paste the URL copied from GitHub.
+6. Press enter and the local clone will be created.
+
+![Github clone](/assets/readme-images/github-clone.jpg)
+
+[Back to contents](#contents)
 
 ## 6. Credits
 
 ### Code
 
-- Navbar code copied from [Boostrap](https://getbootstrap.com/docs/4.2/components/navbar/#placement) and edited and styled
-- Embed code copied from [Youtube](https://www.youtube.com/watch?v=-6qFbtDSqgM)
+- Navbar code copied from [Bootstrap](https://getbootstrap.com/docs/4.2/components/navbar/#placement) and substantially edited and styled
+- Embed code for iframes copied from [Youtube](https://www.youtube.com/watch?v=-6qFbtDSqgM)
 
 ### Content
 
@@ -314,15 +384,18 @@ For full testing details, including code validation, bugs, user story tests and 
 ### Media
 
 - Contact page background image by Ardian Lumi, downloaded from [Unsplash](https://unsplash.com/photos/group-of-people-dancing-6Woj_wozqmA)
-
 - FAQ background image by Miti, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-cielo-black-and-white-photography-vSws0g1KjxI)
-
 - About page background image by Jens Thekkeveettil, downloaded for free from [Unsplash](https://unsplash.com/photos/person-playing-saxophone-dBWvUqBoOU8)
-
 - Media background image by Daniel Lazar, downloaded for free from [Unsplash](https://unsplash.com/photos/brown-and-white-piano-keys-KWUuFjXWzcI)
-
 - All other images taken by the developer, Mark Sambell, and other members of the band.
+
+
+[Back to contents](#contents)
 
 ## 7. Acknowledgements
 
+This site was developed as my first Milestone Project for the Full Stack Software Developer Diploma at Code Institute. I would like to thank my mentor, [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), and all at Code Institute for their help and support. I would also like to thank the incredible musicians of Hot Gin Swing for their kind permission to use content in the development of the project. If you ever need to book a jazz/swing band, look no further than [Hot Gin Swing](https://mksambell.github.io/band_website_hot_gin_swing/index.html)!
 
+Mark Sambell 2024
+
+[Back to contents](#contents)

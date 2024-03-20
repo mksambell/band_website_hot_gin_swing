@@ -51,7 +51,9 @@ The site was tested manually in the following broswers:
 - Safari
 - Mozilla Firefox
 
-The site functioned as expected on all browsers, in a range of device sizes; functionality, responsiveness and appearance worked as expected.
+The site functioned as expected on all browsers, in a range of device sizes; functionality, responsiveness and appearance worked as expected. 
+
+
 
 [Back to top](#contents)
 
@@ -131,6 +133,14 @@ During validation, two minor errors were identified:
 ## Additional tests
 
 ### Lighthouse
+
+The site was tested with [Lighthouse], one of Google Chrome's developer tools.
+
+The initial test of the home page for mobile device, gave the following result:
+
+![Lighthouse Test 1](/assets/readme-images/lighthhouse-test1.jpg)
+
+Performance was slow, and well outside of the desired load time for good user experience (about 2.5 seconds). This was principally due to the large size of the background image.
 
 [Back to top](#contents)
 

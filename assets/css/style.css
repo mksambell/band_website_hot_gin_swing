@@ -5,7 +5,7 @@ html {
 body {
     font-family: "Source Sans", sans-serif;
     height: 100%;
-    color: #f8f9fa
+    color: #f8f9fa;
 }
 
 h1 {
@@ -47,7 +47,9 @@ h2 {
     transition: .4s;
 }
 
-.navbar a.navbar-brand h1:hover {
+/* enhances UX by changing when cursor is over main logo and links */
+.navbar a.navbar-brand h1:hover,
+.navbar-nav a.nav-item.nav-link:hover {
     color: #A43134;
 }
 
@@ -60,10 +62,7 @@ a.nav-item.nav-link,
     padding: 5px 6px;
 }
 
-.navbar-nav a.nav-item.nav-link:hover {
-    color: #A43134;
-}
-
+/* enhances UX by showing user the current page */
 .navbar-nav a.nav-item.nav-link.active {
     color: #2E2422;
     font-weight: 500;
@@ -76,7 +75,7 @@ a.nav-item.nav-link i {
 
 /*------------------------------------------------------------------------ Homepage */
 
-.container-fluid.hero-background {
+.container-fluid.hero-background  {
     margin-top: 82px;
     padding: 0;
     width: 100%;
@@ -93,11 +92,11 @@ a.nav-item.nav-link i {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.homepage-text,
 .homepage-text a {
     color: #f8f9fa;
 }
 
+/* enhances UX by changing when cursor is over link to contact form */
 .homepage-text a:hover {
     text-decoration: none;
     color: #FF6250;
@@ -146,17 +145,6 @@ a.nav-item.nav-link i {
     background-size: cover;
 }
 
-.opaque-layer {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.about-background .opaque-layer {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 .container-fluid.faq-background {
     position: relative;
     padding: 0;
@@ -167,44 +155,29 @@ a.nav-item.nav-link i {
     background-size: cover;
 }
 
-.faq-background .opaque-layer {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.about-text {
-    height: 100%;
-}
-
 .about-text-left,
 .faq-text {
     margin: 50px 20px 50px 50px;
     padding: 20px;
-    color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .about-text-right {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
     margin: 50px 50px 50px 0;
 }
 
-.about-text-left,
-.faq-text {
-    color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
+/* enhances UX by changing when cursor is over link */
 .about-text-left a:hover {
     color: #FF6250;
 }
 
 .welcome {
-    font-family: "Raleway", sans-serif;
     font-size: 20px;
-    color: #FF6250;
 }
 
+.welcome,
 .faq-text h5 {
     font-family: "Raleway", sans-serif;
     color: #FF6250;
@@ -231,6 +204,7 @@ a.nav-item.nav-link i {
     transition: .1s;
 }
 
+/* enhances UX by slightly highlighting each image when cursor hovers over it */
 #photo-gallery img:hover {
     opacity: 1;
 }
@@ -269,15 +243,13 @@ a.nav-item.nav-link i {
 }
 
 .repertoire-text {
-    color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     margin: 50px 50px 20px 50px;
     padding: 20px;
 }
 
 .video-links {
-    color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     margin: 50px 20px 50px 50px;
     padding: 20px;
 }
@@ -285,14 +257,14 @@ a.nav-item.nav-link i {
 .media-testimonial {
     margin: 50px 50px 50px 0;
     padding: 20px;
-    color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 a.inline-social-media {
     color: #f8f9fa;
 }
 
+/* enhances UX by changing when cursor is over link */
 a.inline-social-media:hover {
     color: #FF6250;
     text-decoration: none;
@@ -302,15 +274,11 @@ a.inline-social-media:hover {
     font-size: 1.1rem;
 }
 
-.repertoire-text mark {
-    background-color: transparent;
-    color: #FF6250;
-}
-
 .repertoire-text a {
     color: #f8f9fa
 }
 
+/* enhances UX by changing when cursor is over link */
 .repertoire-text a:hover {
     color: #FF6250;
     text-decoration: none;
@@ -332,13 +300,11 @@ a.inline-social-media:hover {
 .testimonials-text {
     margin: 50px 50px 20px 50px;
     padding: 20px;
-    color: #f8f9fa;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 p.testimonial {
     font-family: "Raleway", sans-serif;
-    color: #f8f9fa;
     font-style: italic;
     font-size: 1.1rem;
     font-weight: 600;
@@ -365,7 +331,6 @@ p.testimonial-name {
 /*------------------------------------------------------------------------ Contact */
 
 .container-fluid.contact-background {
-    position: relative;
     margin: 0 auto;
     margin-top: 82px;
     padding: 0;
@@ -431,21 +396,16 @@ input.submit-button {
     transition: 0.4s;
 }
 
-.form-checkboxes {
-    padding-left: 20%;
-}
-
+/* enhances UX by reversing colours when cursor is over button */
 input.submit-button:hover {
     background-color: #f8f9fa;
     color: #A43134;
 }
-
-input.submit-button:active {
-    background-color: black;
+.form-checkboxes {
+    padding-left: 20%;
 }
 
 .enquiry-section {
-    color: #f8f9fa;
     text-align: center;
     padding: 60px 0;
     background-color: rgba(0, 0, 0, 0.85);
@@ -455,7 +415,6 @@ input.submit-button:active {
 /*---------------------------------------------------------------------- Privacy policy page*/
 
 .privacy-container {
-    position: relative;
     margin: 0 auto;
     margin-top: 66px;
     padding: 50px 50px;
@@ -464,7 +423,6 @@ input.submit-button:active {
     background-color: black;
     background-size: cover;
 }
-
 
 /*------------------------------------------------------------------------ Footer */
 
@@ -487,6 +445,7 @@ input.submit-button:active {
     padding-bottom: 1rem;
 }
 
+/* enhances UX by changing when cursor is over link */
 .footer-bandname a:hover {
     text-decoration: none;
     color: #A43134;
@@ -507,6 +466,7 @@ input.submit-button:active {
     text-decoration: none;
 }
 
+/* enhances UX by changing when cursor is over link */
 #footer-form:hover,
 #footer-logo:hover,
 #footer-facebook-link:hover,
@@ -531,6 +491,7 @@ input.submit-button:active {
 
 /*------------------------------------------------------------------------ Media Queries */
 
+/* For tablet and laptop screens of 992px width and less */
 @media screen and (max-width: 992px) {
 
     .homepage-text {
@@ -538,6 +499,7 @@ input.submit-button:active {
     }
 }
 
+/* For tablet screens of 768px width and less */
 @media screen and (max-width: 768px) {
 
     .homepage-text {
@@ -572,7 +534,7 @@ input.submit-button:active {
     }
 }
 
-
+/* For mobile screens of 576px width and less */
 @media screen and (max-width: 576px) {
 
     .navbar a.navbar-brand h1 {
