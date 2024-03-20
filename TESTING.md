@@ -122,7 +122,6 @@ During validation, two minor errors were identified:
 
 ![Bug 2](/assets/readme-images/bug2.jpg)
 
-
 ### Unresolved
 
 - The contact form, though acting as expected, does not yet post anywhere. This is something that would need to be addressed before going live.
@@ -135,4 +134,4 @@ During validation, two minor errors were identified:
 
 [Back to top](#contents)
 
-[Return to Readme](/README.md#4-testing)
+Return to [Readme](/README.md#4-testing)
