@@ -140,7 +140,14 @@ The initial test of the home page for mobile device, gave the following result:
 
 ![Lighthouse Test 1](/assets/readme-images/lighthhouse-test1.jpg)
 
-Performance was slow, and well outside of the desired load time for good user experience (about 2.5 seconds). This was principally due to the large size of the background image.
+Performance was slow, and well outside of the desired load time for good user experience (about 2.5 seconds).
+
+To address this:
+- Images were resized and compressed
+- Custom CSS stylesheet was checked and refined to remove any unnecessary or unused code
+- Call to Google Fonts CDN was refined to ensure that only the fonts used were requested
+- Moving Font Awesome script tag from the head to the end of the body
+
 
 [Back to top](#contents)
 
