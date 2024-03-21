@@ -19,10 +19,20 @@ Welcome to the site! [**Hot Gin Swing**](https://mksambell.github.io/band_websit
 			- [Navigation bar](#navigation-bar)
 			- [Hero image](#hero-image)
 			- [Footer](#footer)
+		- About
+			- [About us](#about-us)
+			- [FAQs](#faqs)
+		- [Gallery](#gallery-1)
+		- Music
+			- [Media](#media)
+			- [Repertoire](#repertoire)
+		- [Testimonials](#testimonials-1)
+		- [Contact](#contact-1)
+			- [Contact-receipt](#contact-receipt)
+			- [Privacy policy](#privacy-policy)
 	- [Future Features](#future-features)
 3. [**Technology used**](#3-technology-used)
 4. [**Testing**](#4-testing)
-	- [Bugs](#bugs)
 5. [**Deployment**](#5-deployment)
 6. [**Credits**](#6-credits)
 7. [**Acknowledgements**](#7-acknowledgements)
@@ -100,19 +110,26 @@ The site is structured with six pages:
 
 The following wireframes were created in [Balsamiq](https://balsamiq.com/) and include responsive design ideas for Laptop, Tablet and Mobile devices. The final design differs from the wireframes due to changes made in the design process. For example, the contact form does not appear at the bottom of every page. It was felt that there was sufficient access to it through the home page, navbar and footer and that it would be unnecessary and annoying to the user.
 
-### Home
+**Home**
 ![Home](assets/wireframes/home.png "Opens Home page wireframe as png")  
-### About
+
+**About**
 ![About](assets/wireframes/about.png "Opens About page wireframe as png")
+
 [Back to contents](#contents)
-### Gallery
+
+**Gallery**
 ![Gallery](assets/wireframes/gallery.png "Opens Gallery page wireframe as png")
-### Music
+
+**Music**
 ![Music](assets/wireframes/music.png "Opens Our Music page wireframe as png")
+
 [Back to contents](#contents)
-### Testimonials
+
+**Testimonials**
 ![Testimonials](assets/wireframes/testimonials.png "Opens Testimonials page wireframe as png")  
-### Contact
+
+**Contact**
 ![Contact](assets/wireframes/contact.png "Opens Contact page wireframe as png")
 
 [Back to contents](#contents)

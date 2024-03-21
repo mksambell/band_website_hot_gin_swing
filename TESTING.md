@@ -2,15 +2,15 @@
 
 # Contents
 
-- [Code Validation](#code-validation)
-- [Navigation Links](#navigation-links)
-- [Responsive Test](#responsive-test)
-- [Browser Compatibility](#browser-compatibility)
+- [Code validation](#code-validation)
+- [Navigation links](#navigation-links)
+- [Responsive test](#responsive-test)
+- [Browser compatibility](#browser-compatibility)
 - [Testing user stories](#testing-user-stories)
 - [Bugs](#bugs)
     - [Resolved](#resolved)
     - [Unresolved](#unresolved)
-- [Additional Tests](#additional-tests)
+- [Additional tests](#additional-tests)
     - [Lighthouse](#lighthouse)
 
 ## Code validation
@@ -127,6 +127,7 @@ During validation, two minor errors were identified:
 ### Unresolved
 
 - The contact form, though acting as expected, does not yet post anywhere. This is something that would need to be addressed before going live.
+- The embedded Youtube videos in the Media section significantly effect the load time of the Music page. A potential fix is to use a custom element that loads first, and allows the video to be called when requested. See [Future improvements](#future-improvements) below for a link to an example.
 
 [Back to top](#contents)
 
@@ -134,7 +135,7 @@ During validation, two minor errors were identified:
 
 ### Lighthouse
 
-The site was tested with [Lighthouse], one of Google Chrome's developer tools.
+The site was tested with [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview), one of Google Chrome's developer tools.
 
 The initial test of the home page for mobile device, gave the following result:
 
@@ -162,7 +163,7 @@ After these changes, performance and SEO were much improved.
 
 ![Lighthouse Test 3](/assets/readme-images/lighthhouse-test3.jpg)
 
-Following these successful changes, all images have been converted to webp format using [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp) and meta descriptions have been added to all pages.
+Following these successful changes, all images across the site have been converted to webp format using [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp) and meta descriptions have been added to all pages.
 
 #### Future Improvements
 
