@@ -147,6 +147,11 @@ To address this:
 - Custom CSS stylesheet was checked and refined to remove any unnecessary or unused code
 - Call to Google Fonts CDN was refined to ensure that only the fonts used were requested
 - Moving Font Awesome script tag from the head to the end of the body
+- Saving a local version of the Bootstrap CSS, with irrelevant style rules removed
+
+After these changes, performance was significantly improved:
+
+![Lighthouse Test 2](/assets/readme-images/lighthhouse-test2.jpg)
 
 
 [Back to top](#contents)
