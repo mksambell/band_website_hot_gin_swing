@@ -146,13 +146,31 @@ To address this:
 - Images were resized and compressed
 - Custom CSS stylesheet was checked and refined to remove any unnecessary or unused code
 - Call to Google Fonts CDN was refined to ensure that only the fonts used were requested
-- Moving Font Awesome script tag from the head to the end of the body
-- Saving a local version of the Bootstrap CSS, with irrelevant style rules removed
+- Font Awesome script tag was moved from the head to the end of the body
+- A local version of the Bootstrap CSS, with irrelevant style rules removed, was saved to the assets folder
 
 After these changes, performance was significantly improved:
 
 ![Lighthouse Test 2](/assets/readme-images/lighthhouse-test2.jpg)
 
+As suggested by Lighthouse, the following further changes were made:
+
+- Converting background image from jpeg to webp format, reducing file size by a further 75%
+- Adding meta descriptions to improve SEO
+
+After these changes, performance and SEO were much improved.
+
+![Lighthouse Test 3](/assets/readme-images/lighthhouse-test3.jpg)
+
+Following these successful changes, all images have been converted to webp format using [Pixelied](https://pixelied.com/convert/jpg-converter/jpg-to-webp) and meta descriptions have been added to all pages.
+
+#### Future Improvements
+
+As suggested by the Lighthouse tests, further site improvements could include:
+- Minifying CSS and JS
+- Compressing CSS
+- Eliminating elements that block the initial render
+- Use of a custom element to improve the load time of the Youtube videos, for example [Lite Youtube Embed](https://github.com/paulirish/lite-youtube-embed/blob/master/readme.md)
 
 [Back to top](#contents)
 

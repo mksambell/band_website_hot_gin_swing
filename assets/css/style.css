@@ -81,7 +81,7 @@ a.nav-item.nav-link i {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/hero-singer.jpg") no-repeat top center fixed;
+    background: url("../images/hero-singer.webp") no-repeat top center fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -141,7 +141,7 @@ a.nav-item.nav-link i {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/about-sax.jpg") no-repeat top center fixed;
+    background: url("../images/about-sax.webp") no-repeat top center fixed;
     background-size: cover;
 }
 
@@ -151,7 +151,7 @@ a.nav-item.nav-link i {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/faq-bass.jpg") no-repeat top center fixed;
+    background: url("../images/faq-bass.webp") no-repeat top center fixed;
     background-size: cover;
 }
 
@@ -217,7 +217,7 @@ a.nav-item.nav-link i {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/media-piano.jpg") no-repeat top center fixed;
+    background: url("../images/media-piano.webp") no-repeat top center fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -237,7 +237,7 @@ a.nav-item.nav-link i {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/faq-bass.jpg") no-repeat top center fixed;
+    background: url("../images/faq-bass.webp") no-repeat top center fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -292,7 +292,7 @@ a.inline-social-media:hover {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/testimonials-stage.jpg") no-repeat top center fixed;
+    background: url("../images/testimonials-stage.webp") no-repeat top center fixed;
     background-size: cover;
     overflow: hidden;
 }
@@ -337,7 +337,7 @@ p.testimonial-name {
     width: 100%;
     height: auto;
     background-color: black;
-    background: url("../images/about-dancers.jpg") no-repeat top center fixed;
+    background: url("../images/about-dancers.webp") no-repeat top center fixed;
     background-size: cover;
 }
 
